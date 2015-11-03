@@ -26,5 +26,6 @@
 #import "RunesModel.h"
 #import "SumAbilityModel.h"
 #import "BestRanksModel.h"
+#import "HeroDubModel.h"
 
 #endif /* DuoWanModel_h */

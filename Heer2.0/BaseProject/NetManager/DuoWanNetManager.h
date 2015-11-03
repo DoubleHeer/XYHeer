@@ -49,4 +49,8 @@
 +(id)getSumAbilityWithCompleteHandle:(void(^)(SumAbilityModel *model,NSError *error))completeHandle;
 //最强阵容
 +(id)getBestRanksWithCompleteHandle:(void(^)(BestRanksModel *model,NSError *error))completeHandle;
+
+//英雄配音
++(id)getHeroDubWithHero:(NSString *)hero completeHandel:(void(^)(HeroDubModel *model,NSError *error))completeHandle;
+
 @end

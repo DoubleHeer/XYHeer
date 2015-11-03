@@ -28,6 +28,7 @@
 #define kRunesPath @"http://lolbox.duowan.com/phone/apiRunes.php"//符文
 #define kSumAbilityPath @"http://lolbox.duowan.com/phone/apiSumAbility.php"//召唤师技能列表
 #define kBestRanksPath @"http://box.dwstatic.com/apiHeroBestGroup.php"//最佳阵容
+#define kHeroDubPath @"http://box.dwstatic.com/apiHeroSound.php"//英雄配音
 
 @implementation DuoWanNetManager
 //免费英雄http://lolbox.duowan.com/phone/apiHeroes.php?type=free&v=140&OSType=iOS9.1
@@ -184,6 +185,17 @@
     path = [path stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
         completeHandle([BestRanksModel objectWithKeyValues:responseObj],error);
+    }];
+}
+
+//英雄配音 http://box.dwstatic.com/apiHeroSound.php?hero=Braum&v=140&OSType=iOS9.1&versionName=2.4.0
+
+//英雄配音
++(id)getHeroDubWithHero:(NSString *)hero completeHandel:(void(^)(HeroDubModel *model,NSError *error))completeHandle{
+    NSString *path = [NSString stringWithFormat:@"%@?hero=%@&v=140&OSType=%@&versionName=2.4.0",kHeroDubPath,hero,kOSType];
+    path = [path stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
+        completeHandle([HeroDubModel objectWithKeyValues:responseObj],error);
     }];
 }
 @end

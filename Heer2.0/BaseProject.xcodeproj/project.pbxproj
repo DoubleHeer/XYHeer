@@ -36,6 +36,7 @@
 		85536EDA1BE7829A0054CF30 /* BestRanksModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85536ED91BE7829A0054CF30 /* BestRanksModel.m */; };
 		85536EDD1BE787D40054CF30 /* MusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85536EDC1BE787D40054CF30 /* MusicModel.m */; };
 		85536EE01BE788C20054CF30 /* MusicCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85536EDF1BE788C20054CF30 /* MusicCategoryModel.m */; };
+		85849B4B1BE8EF840057D40A /* HeroDubModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85849B4A1BE8EF840057D40A /* HeroDubModel.m */; };
 		85D2F2DD1BE7454900EEC368 /* FreeHerosModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D2F2DC1BE7454900EEC368 /* FreeHerosModel.m */; };
 		85D2F2E01BE747AD00EEC368 /* AllHerosModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D2F2DF1BE747AD00EEC368 /* AllHerosModel.m */; };
 		85D2F2E31BE7484200EEC368 /* HeroSkinsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D2F2E21BE7484200EEC368 /* HeroSkinsModel.m */; };
@@ -107,6 +108,8 @@
 		85536EDE1BE788C20054CF30 /* MusicCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCategoryModel.h; sourceTree = "<group>"; };
 		85536EDF1BE788C20054CF30 /* MusicCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCategoryModel.m; sourceTree = "<group>"; };
 		85849B481BE8A7D90057D40A /* DuoWanModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuoWanModel.h; sourceTree = "<group>"; };
+		85849B491BE8EF840057D40A /* HeroDubModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroDubModel.h; sourceTree = "<group>"; };
+		85849B4A1BE8EF840057D40A /* HeroDubModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroDubModel.m; sourceTree = "<group>"; };
 		85D2F2DB1BE7454900EEC368 /* FreeHerosModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeHerosModel.h; sourceTree = "<group>"; };
 		85D2F2DC1BE7454900EEC368 /* FreeHerosModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeHerosModel.m; sourceTree = "<group>"; };
 		85D2F2DE1BE747AD00EEC368 /* AllHerosModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllHerosModel.h; sourceTree = "<group>"; };
@@ -325,6 +328,8 @@
 				85536ED61BE774DE0054CF30 /* SumAbilityModel.m */,
 				85536ED81BE7829A0054CF30 /* BestRanksModel.h */,
 				85536ED91BE7829A0054CF30 /* BestRanksModel.m */,
+				85849B491BE8EF840057D40A /* HeroDubModel.h */,
+				85849B4A1BE8EF840057D40A /* HeroDubModel.m */,
 				85849B481BE8A7D90057D40A /* DuoWanModel.h */,
 			);
 			path = "多玩";
@@ -510,6 +515,7 @@
 				85D2F2E61BE74A2800EEC368 /* HeroVideoModel.m in Sources */,
 				85D2F2EC1BE74D1B00EEC368 /* HeroMaterialModel.m in Sources */,
 				85536ED41BE7734D0054CF30 /* RunesModel.m in Sources */,
+				85849B4B1BE8EF840057D40A /* HeroDubModel.m in Sources */,
 				85EAC66E1BE73786001D3A1C /* TuWanBaseModel.m in Sources */,
 				85536ED11BE75DE00054CF30 /* GiftModel.m in Sources */,
 				3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */,
