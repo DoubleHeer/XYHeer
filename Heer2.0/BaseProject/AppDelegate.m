@@ -8,8 +8,7 @@
 
 #import "AppDelegate.h"
 #import "AppDelegate+Category.h"
-#import "TUWanNetManager.h"
-#import "TuWanBaseModel.h"
+#import "XiMaNetManager.h"
 
 @interface AppDelegate ()
 
@@ -28,11 +27,12 @@
 //        DDLogVerbose(@"......");
 //    }];
 //    
-    [TUWanNetManager getTuWanListType:TuWanListTypeCOS start:1 completionHandle:^(TuWanBaseModel *model, NSError *error) {
-      DDLogVerbose(@"......");
+    [XiMaNetManager getMusicCategoryPage:1 completeHandle:^(MusicCategoryModel *model, NSError *error) {
+        DDLogVerbose(@",,,,");
         
     }];
-    return YES;
+     
+     return YES;
 }
 
 @end
