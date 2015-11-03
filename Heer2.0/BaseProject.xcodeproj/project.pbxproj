@@ -106,6 +106,7 @@
 		85536EDC1BE787D40054CF30 /* MusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicModel.m; sourceTree = "<group>"; };
 		85536EDE1BE788C20054CF30 /* MusicCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicCategoryModel.h; sourceTree = "<group>"; };
 		85536EDF1BE788C20054CF30 /* MusicCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicCategoryModel.m; sourceTree = "<group>"; };
+		85849B481BE8A7D90057D40A /* DuoWanModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuoWanModel.h; sourceTree = "<group>"; };
 		85D2F2DB1BE7454900EEC368 /* FreeHerosModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeHerosModel.h; sourceTree = "<group>"; };
 		85D2F2DC1BE7454900EEC368 /* FreeHerosModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeHerosModel.m; sourceTree = "<group>"; };
 		85D2F2DE1BE747AD00EEC368 /* AllHerosModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllHerosModel.h; sourceTree = "<group>"; };
@@ -324,6 +325,7 @@
 				85536ED61BE774DE0054CF30 /* SumAbilityModel.m */,
 				85536ED81BE7829A0054CF30 /* BestRanksModel.h */,
 				85536ED91BE7829A0054CF30 /* BestRanksModel.m */,
+				85849B481BE8A7D90057D40A /* DuoWanModel.h */,
 			);
 			path = "多玩";
 			sourceTree = "<group>";
