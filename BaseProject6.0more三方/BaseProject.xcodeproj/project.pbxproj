@@ -93,6 +93,8 @@
 		8542ED551BEB09A8006067D7 /* MyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED541BEB09A8006067D7 /* MyInfoViewController.m */; };
 		8542ED581BEB09D9006067D7 /* RankListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED571BEB09D9006067D7 /* RankListViewController.m */; };
 		8542ED5B1BEB0A0C006067D7 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED5A1BEB0A0C006067D7 /* LeftViewController.m */; };
+		85E99D4D1BEB46DE006B502F /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E99D4C1BEB46DE006B502F /* Factory.m */; };
+		85E99D501BEB49E2006B502F /* TuWanViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E99D4F1BEB49E2006B502F /* TuWanViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -247,6 +249,10 @@
 		8542ED571BEB09D9006067D7 /* RankListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankListViewController.m; sourceTree = "<group>"; };
 		8542ED591BEB0A0C006067D7 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		8542ED5A1BEB0A0C006067D7 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		85E99D4B1BEB46DE006B502F /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		85E99D4C1BEB46DE006B502F /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		85E99D4E1BEB49E2006B502F /* TuWanViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanViewModel.h; sourceTree = "<group>"; };
+		85E99D4F1BEB49E2006B502F /* TuWanViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanViewModel.m; sourceTree = "<group>"; };
 		DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -527,6 +533,8 @@
 			isa = PBXGroup;
 			children = (
 				3804CE481BD758F10046C8C8 /* Category */,
+				85E99D4B1BEB46DE006B502F /* Factory.h */,
+				85E99D4C1BEB46DE006B502F /* Factory.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -685,6 +693,8 @@
 		8542ED4A1BEB0879006067D7 /* 兔玩游戏 */ = {
 			isa = PBXGroup;
 			children = (
+				85E99D4E1BEB49E2006B502F /* TuWanViewModel.h */,
+				85E99D4F1BEB49E2006B502F /* TuWanViewModel.m */,
 			);
 			path = "兔玩游戏";
 			sourceTree = "<group>";
@@ -877,6 +887,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
+				85E99D4D1BEB46DE006B502F /* Factory.m in Sources */,
 				8542ED381BEB0846006067D7 /* WeekDataModel.m in Sources */,
 				8542ED581BEB09D9006067D7 /* RankListViewController.m in Sources */,
 				8542ED551BEB09A8006067D7 /* MyInfoViewController.m in Sources */,
@@ -905,6 +916,7 @@
 				3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */,
 				8542ED2F1BEB0846006067D7 /* HeroChangedModel.m in Sources */,
 				8542ED321BEB0846006067D7 /* HeroGiftModel.m in Sources */,
+				85E99D501BEB49E2006B502F /* TuWanViewModel.m in Sources */,
 				8542ED441BEB0857006067D7 /* XiMaNetManager.m in Sources */,
 				3885C8FB1BE8E96A009441EA /* README.md in Sources */,
 				8542ED301BEB0846006067D7 /* HeroDubModel.m in Sources */,

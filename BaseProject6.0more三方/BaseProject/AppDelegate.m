@@ -32,7 +32,7 @@
 /** 导航栏不透明*/
     [[UINavigationBar appearance]setTranslucent:NO];
     //设置导航栏背景图
-    [[UINavigationBar appearance]setBackgroundImage:[UIImage imageNamed:@"a4813739"] forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance]setBackgroundImage:[UIImage imageNamed:@"navidrop_h"] forBarMetrics:UIBarMetricsDefault];
     /**配置导航栏题目的样式*/
     [[UINavigationBar appearance]setTitleTextAttributes:@{NSFontAttributeName:[UIFont flatFontOfSize:kNaviTitleFontSize],NSForegroundColorAttributeName:kNavTitleColor}];
 }

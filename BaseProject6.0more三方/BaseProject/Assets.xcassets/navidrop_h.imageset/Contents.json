@@ -5,6 +5,20 @@
       "scale" : "1x"
     },
     {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "tile",
+          "width" : 166,
+          "height" : 68
+        },
+        "cap-insets" : {
+          "bottom" : 4,
+          "top" : 4,
+          "right" : 4,
+          "left" : 72
+        }
+      },
       "idiom" : "universal",
       "filename" : "navidrop_h@2x.png",
       "scale" : "2x"

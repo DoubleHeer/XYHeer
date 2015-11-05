@@ -7,6 +7,7 @@
 //
 
 #import "TuWanViewController.h"
+#import "TuWanViewModel.h"
 
 @implementation TuWanViewController
 
@@ -26,6 +27,11 @@
 -(void)viewDidLoad{
     [super viewDidLoad];
     self.view.backgroundColor = kNavTitleColor;
-    self.title = @"一号铺";
+    self.title = @"一号兔玩";
+    
+    //添加按钮
+    [Factory addMenuItemToVC:self];
+    
+
 }
 @end
