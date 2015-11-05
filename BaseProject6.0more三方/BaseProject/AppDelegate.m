@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "AppDelegate+Category.h"
 #import "LeftViewController.h"
-
+#import "TuWanViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,14 +20,43 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [self initializeWithApplication:application];
-    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
    
-    RESideMenu *sideMenu = [[RESideMenu alloc]initWithContentViewController:[TuWanViewController new] leftMenuViewController:[LeftViewController new] rightMenuViewController:nil];
-    _window.rootViewController = sideMenu;
-     [_window makeKeyAndVisible];
+    self.window.rootViewController = self.sideMenu;
+    [self configGlobalUIStyle];//配置全局UI样式
+    
     return YES;
 }
 
-//生成放有兔玩游戏的导航控制器
+/** 配置全局UI的样式 */
+-(void)configGlobalUIStyle{
+/** 导航栏不透明*/
+    [[UINavigationBar appearance]setTranslucent:NO];
+    //设置导航栏背景图
+    [[UINavigationBar appearance]setBackgroundImage:[UIImage imageNamed:@"a4813739"] forBarMetrics:UIBarMetricsDefault];
+    /**配置导航栏题目的样式*/
+    [[UINavigationBar appearance]setTitleTextAttributes:@{NSFontAttributeName:[UIFont flatFontOfSize:kNaviTitleFontSize],NSForegroundColorAttributeName:kNavTitleColor}];
+}
 
+
+/*代码重构：用代码把功能实现后，考虑代码结构如何编写可以方便后期维护*/
+//懒加载
+-(UIWindow *)window{
+    if (!_window) {
+        _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+        [_window makeKeyAndVisible];
+    }
+    return _window;
+}
+
+-(RESideMenu *)sideMenu{
+    if (!_sideMenu) {
+        
+        _sideMenu = [[RESideMenu alloc]initWithContentViewController:[TuWanViewController standardTuWanNavi] leftMenuViewController:[LeftViewController new] rightMenuViewController:nil];
+        //为sideMenu设置背景图
+        _sideMenu.backgroundImage = [UIImage imageNamed:@"a4813741"];
+        //可以让出现菜单时不显示状态栏
+        _sideMenu.menuPrefersStatusBarHidden = YES;
+    }
+    return _sideMenu;
+}
 @end

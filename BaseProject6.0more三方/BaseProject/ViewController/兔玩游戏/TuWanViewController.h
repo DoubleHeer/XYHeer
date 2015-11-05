@@ -10,4 +10,7 @@
 
 @interface TuWanViewController : UIViewController
 
+//内容页的首页应该是单例的，每次进程都只初始化一次
++(UINavigationController *)standardTuWanNavi;
+
 @end
