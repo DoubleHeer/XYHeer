@@ -88,6 +88,11 @@
 		8542ED421BEB0857006067D7 /* DuoWanNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED3D1BEB0857006067D7 /* DuoWanNetManager.m */; };
 		8542ED431BEB0857006067D7 /* TUWanNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED3F1BEB0857006067D7 /* TUWanNetManager.m */; };
 		8542ED441BEB0857006067D7 /* XiMaNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED411BEB0857006067D7 /* XiMaNetManager.m */; };
+		8542ED4F1BEB0906006067D7 /* DuoWabTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED4E1BEB0906006067D7 /* DuoWabTabBarController.m */; };
+		8542ED521BEB097B006067D7 /* TuWanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED511BEB097B006067D7 /* TuWanViewController.m */; };
+		8542ED551BEB09A8006067D7 /* MyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED541BEB09A8006067D7 /* MyInfoViewController.m */; };
+		8542ED581BEB09D9006067D7 /* RankListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED571BEB09D9006067D7 /* RankListViewController.m */; };
+		8542ED5B1BEB0A0C006067D7 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED5A1BEB0A0C006067D7 /* LeftViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -232,6 +237,16 @@
 		8542ED3F1BEB0857006067D7 /* TUWanNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUWanNetManager.m; sourceTree = "<group>"; };
 		8542ED401BEB0857006067D7 /* XiMaNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaNetManager.h; sourceTree = "<group>"; };
 		8542ED411BEB0857006067D7 /* XiMaNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaNetManager.m; sourceTree = "<group>"; };
+		8542ED4D1BEB0906006067D7 /* DuoWabTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DuoWabTabBarController.h; sourceTree = "<group>"; };
+		8542ED4E1BEB0906006067D7 /* DuoWabTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuoWabTabBarController.m; sourceTree = "<group>"; };
+		8542ED501BEB097B006067D7 /* TuWanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanViewController.h; sourceTree = "<group>"; };
+		8542ED511BEB097B006067D7 /* TuWanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanViewController.m; sourceTree = "<group>"; };
+		8542ED531BEB09A8006067D7 /* MyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoViewController.h; sourceTree = "<group>"; };
+		8542ED541BEB09A8006067D7 /* MyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoViewController.m; sourceTree = "<group>"; };
+		8542ED561BEB09D9006067D7 /* RankListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankListViewController.h; sourceTree = "<group>"; };
+		8542ED571BEB09D9006067D7 /* RankListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankListViewController.m; sourceTree = "<group>"; };
+		8542ED591BEB0A0C006067D7 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		8542ED5A1BEB0A0C006067D7 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -541,6 +556,8 @@
 				8542ED461BEB086F006067D7 /* 兔玩游戏 */,
 				8542ED471BEB086F006067D7 /* 我的信息 */,
 				8542ED481BEB086F006067D7 /* 喜马拉雅 */,
+				8542ED591BEB0A0C006067D7 /* LeftViewController.h */,
+				8542ED5A1BEB0A0C006067D7 /* LeftViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -625,6 +642,8 @@
 		8542ED451BEB086F006067D7 /* 多玩盒子 */ = {
 			isa = PBXGroup;
 			children = (
+				8542ED4D1BEB0906006067D7 /* DuoWabTabBarController.h */,
+				8542ED4E1BEB0906006067D7 /* DuoWabTabBarController.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -632,6 +651,8 @@
 		8542ED461BEB086F006067D7 /* 兔玩游戏 */ = {
 			isa = PBXGroup;
 			children = (
+				8542ED501BEB097B006067D7 /* TuWanViewController.h */,
+				8542ED511BEB097B006067D7 /* TuWanViewController.m */,
 			);
 			path = "兔玩游戏";
 			sourceTree = "<group>";
@@ -639,6 +660,8 @@
 		8542ED471BEB086F006067D7 /* 我的信息 */ = {
 			isa = PBXGroup;
 			children = (
+				8542ED531BEB09A8006067D7 /* MyInfoViewController.h */,
+				8542ED541BEB09A8006067D7 /* MyInfoViewController.m */,
 			);
 			path = "我的信息";
 			sourceTree = "<group>";
@@ -646,6 +669,8 @@
 		8542ED481BEB086F006067D7 /* 喜马拉雅 */ = {
 			isa = PBXGroup;
 			children = (
+				8542ED561BEB09D9006067D7 /* RankListViewController.h */,
+				8542ED571BEB09D9006067D7 /* RankListViewController.m */,
 			);
 			path = "喜马拉雅";
 			sourceTree = "<group>";
@@ -853,6 +878,8 @@
 			files = (
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
 				8542ED381BEB0846006067D7 /* WeekDataModel.m in Sources */,
+				8542ED581BEB09D9006067D7 /* RankListViewController.m in Sources */,
+				8542ED551BEB09A8006067D7 /* MyInfoViewController.m in Sources */,
 				8542ED291BEB0846006067D7 /* EquiqCategoryModel.m in Sources */,
 				8542ED311BEB0846006067D7 /* HeroEquipModel.m in Sources */,
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
@@ -860,12 +887,14 @@
 				8542ED2B1BEB0846006067D7 /* EquiqListModel.m in Sources */,
 				8542ED341BEB0846006067D7 /* HeroSkinsModel.m in Sources */,
 				3885C8FA1BE8E96A009441EA /* PSCollectionViewCell.m in Sources */,
+				8542ED521BEB097B006067D7 /* TuWanViewController.m in Sources */,
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
 				8542ED391BEB0846006067D7 /* TuWanBaseModel.m in Sources */,
 				8542ED2C1BEB0846006067D7 /* FreeHerosModel.m in Sources */,
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
 				8542ED361BEB0846006067D7 /* RunesModel.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
+				8542ED4F1BEB0906006067D7 /* DuoWabTabBarController.m in Sources */,
 				3885C8981BE8E88D009441EA /* iCarousel.m in Sources */,
 				8542ED351BEB0846006067D7 /* HeroVideoModel.m in Sources */,
 				8542ED3B1BEB0846006067D7 /* MusicModel.m in Sources */,
@@ -886,6 +915,7 @@
 				3886C0981BD748830014E661 /* main.m in Sources */,
 				8542ED3A1BEB0846006067D7 /* MusicCategoryModel.m in Sources */,
 				8542ED421BEB0857006067D7 /* DuoWanNetManager.m in Sources */,
+				8542ED5B1BEB0A0C006067D7 /* LeftViewController.m in Sources */,
 				8542ED2A1BEB0846006067D7 /* EquiqDetailModel.m in Sources */,
 				3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */,
 			);
@@ -1001,6 +1031,7 @@
 			baseConfigurationReference = 4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
@@ -1026,6 +1057,7 @@
 			baseConfigurationReference = DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
