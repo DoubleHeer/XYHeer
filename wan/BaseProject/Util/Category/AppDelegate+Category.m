@@ -37,6 +37,8 @@
     [[AFNetworkReachabilityManager sharedManager] startMonitoring];
     //启动友盟统计功能，用自己的
     [MobClick startWithAppkey:@"5632e642e0f55a782a002f62"];
+    //友盟统计默认情况下会关闭xcode默认的crash提示
+    [MobClick setLogEnabled:YES];
 }
 
 
