@@ -49,4 +49,7 @@
 /**滚动展示栏的图片数量*/
 @property (nonatomic) NSInteger indexPicNumber;
 
+/**通过行数返回此行中对应的图片链接数组*/
+-(NSArray *)iconURLsForRowInList:(NSInteger)row;
+
 @end

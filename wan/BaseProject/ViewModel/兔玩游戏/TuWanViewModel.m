@@ -80,7 +80,17 @@
     return self.indexPicArr.count;
 }
 
-
+/**通过行数返回此行中对应的图片链接数组*/
+-(NSArray *)iconURLsForRowInList:(NSInteger)row{
+    NSArray *arr = [self modelForArr:self.dataArr row:row].showitem;
+    NSMutableArray *mutArr = [NSMutableArray new];
+    for (int i=0; i<arr.count; i++) {
+        TuWanDataIndexPicShowitemModel *model = arr[i];
+        [mutArr addObject:[NSURL URLWithString:model.pic]];
+       
+    }
+    return [mutArr copy];
+}
 
 //获取更多
 - (void)getMoreDataCompletionHandle:(CompletionHandle)completionHandle{

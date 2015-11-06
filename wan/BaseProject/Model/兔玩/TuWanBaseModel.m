@@ -27,7 +27,7 @@
 }
 
 + (NSDictionary *)objectClassInArray{
-    return @{@"showitem":[TuWanDataIndexPicShowitemInfoModel class]};
+    return @{@"showitem":[TuWanDataIndexPicShowitemModel class]};
 }
 
 @end

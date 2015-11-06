@@ -65,6 +65,8 @@
 		3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BD1BD74AFE0014E661 /* BaseNetManager.m */; };
 		3886C0C11BD74B090014E661 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0C01BD74B090014E661 /* BaseModel.m */; };
 		853D3AAA1BEC394B0015F5C3 /* TuWanListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853D3AA91BEC394B0015F5C3 /* TuWanListViewController.m */; };
+		853D3AAD1BEC39BE0015F5C3 /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 853D3AAC1BEC39BE0015F5C3 /* TuWanListCell.m */; };
+		853D3AB01BEC44040015F5C3 /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 853D3AAF1BEC44040015F5C3 /* TuWanImageCell.m */; };
 		8542ED271BEB0846006067D7 /* AllHerosModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ECFB1BEB0846006067D7 /* AllHerosModel.m */; };
 		8542ED281BEB0846006067D7 /* BestRanksModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ECFD1BEB0846006067D7 /* BestRanksModel.m */; };
 		8542ED291BEB0846006067D7 /* EquiqCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED001BEB0846006067D7 /* EquiqCategoryModel.m */; };
@@ -193,6 +195,10 @@
 		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		853D3AA81BEC394B0015F5C3 /* TuWanListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TuWanListViewController.h; path = "../../ViewModel/兔玩游戏/TuWanListViewController.h"; sourceTree = "<group>"; };
 		853D3AA91BEC394B0015F5C3 /* TuWanListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TuWanListViewController.m; path = "../../ViewModel/兔玩游戏/TuWanListViewController.m"; sourceTree = "<group>"; };
+		853D3AAB1BEC39BE0015F5C3 /* TuWanListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanListCell.h; sourceTree = "<group>"; };
+		853D3AAC1BEC39BE0015F5C3 /* TuWanListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanListCell.m; sourceTree = "<group>"; };
+		853D3AAE1BEC44040015F5C3 /* TuWanImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanImageCell.h; sourceTree = "<group>"; };
+		853D3AAF1BEC44040015F5C3 /* TuWanImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanImageCell.m; sourceTree = "<group>"; };
 		8542ECFA1BEB0846006067D7 /* AllHerosModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllHerosModel.h; sourceTree = "<group>"; };
 		8542ECFB1BEB0846006067D7 /* AllHerosModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllHerosModel.m; sourceTree = "<group>"; };
 		8542ECFC1BEB0846006067D7 /* BestRanksModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestRanksModel.h; sourceTree = "<group>"; };
@@ -556,6 +562,10 @@
 		3886C0B51BD74A4A0014E661 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				853D3AAB1BEC39BE0015F5C3 /* TuWanListCell.h */,
+				853D3AAC1BEC39BE0015F5C3 /* TuWanListCell.m */,
+				853D3AAE1BEC44040015F5C3 /* TuWanImageCell.h */,
+				853D3AAF1BEC44040015F5C3 /* TuWanImageCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -891,6 +901,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853D3AB01BEC44040015F5C3 /* TuWanImageCell.m in Sources */,
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
 				85E99D4D1BEB46DE006B502F /* Factory.m in Sources */,
 				8542ED381BEB0846006067D7 /* WeekDataModel.m in Sources */,
@@ -910,6 +921,7 @@
 				8542ED2C1BEB0846006067D7 /* FreeHerosModel.m in Sources */,
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
 				8542ED361BEB0846006067D7 /* RunesModel.m in Sources */,
+				853D3AAD1BEC39BE0015F5C3 /* TuWanListCell.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
 				8542ED4F1BEB0906006067D7 /* DuoWabTabBarController.m in Sources */,
 				3885C8981BE8E88D009441EA /* iCarousel.m in Sources */,
