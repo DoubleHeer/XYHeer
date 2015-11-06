@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XYImageView.h"
 
 @interface TuWanListCell : UITableViewCell
 /**左侧图片 */
-@property (nonatomic,strong) UIImageView *iconIV;
+@property (nonatomic,strong) XYImageView *iconIV;
 
 /**题目标签 */
 @property (nonatomic,strong) UILabel *titleLb;

@@ -25,6 +25,7 @@
     }
     return self;
 }
+
 -(TuWanDataIndexPicModel *)modelForArr:(NSArray *)arr row:(NSInteger)row{
     return arr[row];
 }
@@ -62,6 +63,9 @@
 -(NSURL *)detailURLForRowInList:(NSInteger)row{
     return [NSURL URLWithString:[self modelForArr:self.dataArr row:row].html5];
 }
+
+
+
 /**获取展示栏中某行数据对应的html5链接 */
 -(NSURL *)detailURLForRowInIndexPic:(NSInteger)row{
     return [NSURL URLWithString:[self modelForArr:self.indexPicArr row:row].html5];
@@ -92,6 +96,31 @@
     return [mutArr copy];
 }
 
+
+
+/**当前数据类型是视频*/
+-(BOOL)isVideoInListForRow:(NSInteger)row{
+    return [[self modelForArr:self.dataArr row:row].type isEqualToString:@"video"];
+}
+-(BOOL)isVideoInIndexPicForRow:(NSInteger)row{
+    return [[self modelForArr:self.indexPicArr row:row].type isEqualToString:@"video"];
+}
+/**当前数据类型是图片*/
+-(BOOL)isPicInListForRow:(NSInteger)row{
+    return [[self modelForArr:self.dataArr row:row].type isEqualToString:@"pic"];
+}
+-(BOOL)isPicInIndexPicForRow:(NSInteger)row{
+    return [[self modelForArr:self.indexPicArr row:row].type isEqualToString:@"pic"];
+}
+/**当前数据类型是html*/
+-(BOOL)isHtmlInListForRow:(NSInteger)row{
+    return [[self modelForArr:self.dataArr row:row].type isEqualToString:@"all"];
+}
+-(BOOL)isHtmlInIndexPicForRow:(NSInteger)row{
+    return [[self modelForArr:self.indexPicArr row:row].type isEqualToString:@"all"];
+}
+
+#pragma mark - 获取数据
 //获取更多
 - (void)getMoreDataCompletionHandle:(CompletionHandle)completionHandle{
     _start += 11;
@@ -113,6 +142,7 @@
         }
         [self.dataArr addObjectsFromArray:model.data.list];
         self.indexPicArr = model.data.indexpic;
+    
         completionHandle(error);
     }];
 }

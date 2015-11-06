@@ -26,4 +26,21 @@
     spaceItem.width = -10;
     vc.navigationItem.leftBarButtonItems = @[spaceItem,menuItem];
 }
+
+/** 向某个控制器上添加返回按钮 */
++(void)addBackItemToVC:(UIViewController *)vc{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setImage:[UIImage imageNamed:@"btn_back_n"] forState:UIControlStateNormal];
+    [btn setImage:[UIImage imageNamed:@"btn_back_h"] forState:UIControlStateHighlighted];
+    btn.frame = CGRectMake(0, 0, 45, 44);
+    [btn bk_addEventHandler:^(id sender) {
+        [vc.navigationController popViewControllerAnimated:YES];
+    } forControlEvents:UIControlEventTouchUpInside];
+    
+    UIBarButtonItem *menuItem = [[UIBarButtonItem alloc]initWithCustomView:btn];
+    //使用弹簧控件 缩小菜单按钮和边缘的距离
+    UIBarButtonItem *spaceItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
+    spaceItem.width = -16;
+    vc.navigationItem.leftBarButtonItems = @[spaceItem,menuItem];
+}
 @end

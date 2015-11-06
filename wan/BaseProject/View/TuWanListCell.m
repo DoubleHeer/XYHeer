@@ -9,11 +9,11 @@
 #import "TuWanListCell.h"
 
 @implementation TuWanListCell
--(UIImageView *)iconIV{
+-(XYImageView *)iconIV{
     if (!_iconIV) {
-        _iconIV = [[UIImageView alloc]init];
+        _iconIV = [[XYImageView alloc]init];
         //保持比例填充满
-       // _iconIV.contentMode = UIViewContentModeScaleAspectFit;
+        _iconIV.contentMode = UIViewContentModeScaleAspectFit;
     }
     return _iconIV;
 }

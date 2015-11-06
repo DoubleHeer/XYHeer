@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XYImageView.h"
 
 @interface TuWanImageCell : UITableViewCell
 /**图片标签*/
@@ -14,10 +15,10 @@
 /**点击数标签*/
 @property (nonatomic,strong) UILabel *clicksNumLb;
 /**图片0*/
-@property (nonatomic,strong) UIImageView *iconIV0;
+@property (nonatomic,strong) XYImageView *iconIV0;
 /**图片1*/
-@property (nonatomic,strong) UIImageView *iconIV1;
+@property (nonatomic,strong) XYImageView *iconIV1;
 /**图片2*/
-@property (nonatomic,strong) UIImageView *iconIV2;
+@property (nonatomic,strong) XYImageView *iconIV2;
 
 @end

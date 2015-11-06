@@ -33,29 +33,28 @@
 }
 
 
--(UIImageView *)iconIV0{
+-(XYImageView *)iconIV0{
     if (!_iconIV0) {
-        _iconIV0 = [[UIImageView alloc]init];
-        //保持比例填充满
-        //_iconIV0.contentMode = UIViewContentModeScaleAspectFit;
+        _iconIV0 = [[XYImageView alloc]init];
+     
     }
     return _iconIV0;
 }
 
--(UIImageView *)iconIV1{
+-(XYImageView *)iconIV1{
     if (!_iconIV1) {
-        _iconIV1 = [[UIImageView alloc]init];
-        //保持比例填充满
-       // _iconIV1.contentMode = UIViewContentModeScaleAspectFit;
+        _iconIV1 = [[XYImageView alloc]init];
+      
+    
     }
     return _iconIV1;
 }
 
--(UIImageView *)iconIV2{
+-(XYImageView *)iconIV2{
     if (!_iconIV2) {
-        _iconIV2 = [[UIImageView alloc]init];
-        //保持比例填充满
-        //_iconIV2.contentMode = UIViewContentModeScaleAspectFit;
+        _iconIV2 = [[XYImageView alloc]init];
+   
+      
     }
     return _iconIV2;
 }
@@ -69,7 +68,7 @@
         [self.contentView addSubview:self.iconIV2];
     /**题目 左上10 右10 */
         [self.titleLb mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.top.mas_equalTo(0);
+            make.left.top.mas_equalTo(10);
             make.right.mas_equalTo(_clicksNumLb.mas_left).mas_equalTo(-10);
             
         }];
