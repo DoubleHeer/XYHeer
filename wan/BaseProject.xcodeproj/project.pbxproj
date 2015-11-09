@@ -98,6 +98,11 @@
 		8542ED551BEB09A8006067D7 /* MyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED541BEB09A8006067D7 /* MyInfoViewController.m */; };
 		8542ED581BEB09D9006067D7 /* RankListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED571BEB09D9006067D7 /* RankListViewController.m */; };
 		8542ED5B1BEB0A0C006067D7 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED5A1BEB0A0C006067D7 /* LeftViewController.m */; };
+		855C471E1BF02CA800E24FAB /* TuWanPicViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C471D1BF02CA800E24FAB /* TuWanPicViewModel.m */; };
+		855C47231BF02DD600E24FAB /* TuWanPicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C47201BF02DD600E24FAB /* TuWanPicModel.m */; };
+		855C47241BF02DD600E24FAB /* TuWanVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C47221BF02DD600E24FAB /* TuWanVideoModel.m */; };
+		855C47271BF0317100E24FAB /* TuWanPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C47261BF0317100E24FAB /* TuWanPicViewController.m */; };
+		855C472A1BF04C2B00E24FAB /* XiMaCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C47291BF04C2B00E24FAB /* XiMaCategoryCell.m */; };
 		85E99D4D1BEB46DE006B502F /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E99D4C1BEB46DE006B502F /* Factory.m */; };
 		85E99D501BEB49E2006B502F /* TuWanViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E99D4F1BEB49E2006B502F /* TuWanViewModel.m */; };
 /* End PBXBuildFile section */
@@ -264,6 +269,16 @@
 		8542ED571BEB09D9006067D7 /* RankListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankListViewController.m; sourceTree = "<group>"; };
 		8542ED591BEB0A0C006067D7 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		8542ED5A1BEB0A0C006067D7 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		855C471C1BF02CA800E24FAB /* TuWanPicViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanPicViewModel.h; sourceTree = "<group>"; };
+		855C471D1BF02CA800E24FAB /* TuWanPicViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanPicViewModel.m; sourceTree = "<group>"; };
+		855C471F1BF02DD600E24FAB /* TuWanPicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanPicModel.h; sourceTree = "<group>"; };
+		855C47201BF02DD600E24FAB /* TuWanPicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanPicModel.m; sourceTree = "<group>"; };
+		855C47211BF02DD600E24FAB /* TuWanVideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanVideoModel.h; sourceTree = "<group>"; };
+		855C47221BF02DD600E24FAB /* TuWanVideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanVideoModel.m; sourceTree = "<group>"; };
+		855C47251BF0317100E24FAB /* TuWanPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanPicViewController.h; sourceTree = "<group>"; };
+		855C47261BF0317100E24FAB /* TuWanPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanPicViewController.m; sourceTree = "<group>"; };
+		855C47281BF04C2B00E24FAB /* XiMaCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaCategoryCell.h; sourceTree = "<group>"; };
+		855C47291BF04C2B00E24FAB /* XiMaCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaCategoryCell.m; sourceTree = "<group>"; };
 		85E99D4B1BEB46DE006B502F /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
 		85E99D4C1BEB46DE006B502F /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
 		85E99D4E1BEB49E2006B502F /* TuWanViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanViewModel.h; sourceTree = "<group>"; };
@@ -574,6 +589,8 @@
 				853D3AAF1BEC44040015F5C3 /* TuWanImageCell.m */,
 				853D3AB11BEC7F970015F5C3 /* XYImageView.h */,
 				853D3AB21BEC7F970015F5C3 /* XYImageView.m */,
+				855C47281BF04C2B00E24FAB /* XiMaCategoryCell.h */,
+				855C47291BF04C2B00E24FAB /* XiMaCategoryCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -653,6 +670,10 @@
 			children = (
 				8542ED201BEB0846006067D7 /* TuWanBaseModel.h */,
 				8542ED211BEB0846006067D7 /* TuWanBaseModel.m */,
+				855C471F1BF02DD600E24FAB /* TuWanPicModel.h */,
+				855C47201BF02DD600E24FAB /* TuWanPicModel.m */,
+				855C47211BF02DD600E24FAB /* TuWanVideoModel.h */,
+				855C47221BF02DD600E24FAB /* TuWanVideoModel.m */,
 			);
 			path = "兔玩";
 			sourceTree = "<group>";
@@ -686,6 +707,8 @@
 				853D3AA91BEC394B0015F5C3 /* TuWanListViewController.m */,
 				853D3AB41BEC98720015F5C3 /* TuWanHtmlViewController.h */,
 				853D3AB51BEC98720015F5C3 /* TuWanHtmlViewController.m */,
+				855C47251BF0317100E24FAB /* TuWanPicViewController.h */,
+				855C47261BF0317100E24FAB /* TuWanPicViewController.m */,
 			);
 			path = "兔玩游戏";
 			sourceTree = "<group>";
@@ -720,6 +743,8 @@
 			children = (
 				85E99D4E1BEB49E2006B502F /* TuWanViewModel.h */,
 				85E99D4F1BEB49E2006B502F /* TuWanViewModel.m */,
+				855C471C1BF02CA800E24FAB /* TuWanPicViewModel.h */,
+				855C471D1BF02CA800E24FAB /* TuWanPicViewModel.m */,
 			);
 			path = "兔玩游戏";
 			sourceTree = "<group>";
@@ -912,6 +937,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				853D3AB01BEC44040015F5C3 /* TuWanImageCell.m in Sources */,
+				855C47271BF0317100E24FAB /* TuWanPicViewController.m in Sources */,
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
 				85E99D4D1BEB46DE006B502F /* Factory.m in Sources */,
 				8542ED381BEB0846006067D7 /* WeekDataModel.m in Sources */,
@@ -930,8 +956,11 @@
 				8542ED391BEB0846006067D7 /* TuWanBaseModel.m in Sources */,
 				8542ED2C1BEB0846006067D7 /* FreeHerosModel.m in Sources */,
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
+				855C47241BF02DD600E24FAB /* TuWanVideoModel.m in Sources */,
+				855C47231BF02DD600E24FAB /* TuWanPicModel.m in Sources */,
 				853D3AB61BEC98720015F5C3 /* TuWanHtmlViewController.m in Sources */,
 				8542ED361BEB0846006067D7 /* RunesModel.m in Sources */,
+				855C471E1BF02CA800E24FAB /* TuWanPicViewModel.m in Sources */,
 				853D3AAD1BEC39BE0015F5C3 /* TuWanListCell.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
 				8542ED4F1BEB0906006067D7 /* DuoWabTabBarController.m in Sources */,
@@ -949,6 +978,7 @@
 				85E99D501BEB49E2006B502F /* TuWanViewModel.m in Sources */,
 				8542ED441BEB0857006067D7 /* XiMaNetManager.m in Sources */,
 				3885C8FB1BE8E96A009441EA /* README.md in Sources */,
+				855C472A1BF04C2B00E24FAB /* XiMaCategoryCell.m in Sources */,
 				8542ED301BEB0846006067D7 /* HeroDubModel.m in Sources */,
 				8542ED331BEB0846006067D7 /* HeroMaterialModel.m in Sources */,
 				8542ED431BEB0857006067D7 /* TUWanNetManager.m in Sources */,

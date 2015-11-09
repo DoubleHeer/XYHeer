@@ -8,6 +8,8 @@
 
 #import "BaseNetManager.h"
 #import "TuWanBaseModel.h"
+#import "TuWanPicModel.h"
+#import "TuWanVideoModel.h"
 
 //只要公用一个解析类就可以合起来写，只需要使用枚举量
 typedef NS_ENUM(NSInteger,TuWanListType){
@@ -38,4 +40,24 @@ typedef NS_ENUM(NSInteger,TuWanListType){
 +(id)getTuWanListType:(TuWanListType)type
                 start:(NSInteger)start
     completionHandle:(void(^)(TuWanBaseModel *model,NSError *error))completionHandle;
+
+
+/**
+ *  获取视频类资讯的详情页
+ *
+ *  @param aid 资讯aid
+ *
+ *  @return 任务
+ */
++ (id)getVideoDetailWithId:(NSString *)aid kCompletionHandle;
+
+/**
+ *  获取图片类资讯的详情页
+ *
+ *  @param aid 资讯aid
+ *
+ *  @return 任务
+ */
++ (id)getPicDetailWithId:(NSString *)aid kCompletionHandle;
+
 @end

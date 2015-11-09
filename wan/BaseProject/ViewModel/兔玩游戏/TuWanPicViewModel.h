@@ -1,0 +1,22 @@
+//
+//  TuWanPicViewModel.h
+//  BaseProject
+//
+//  Created by tarena on 15/11/9.
+//  Copyright © 2015年 Tarena. All rights reserved.
+//
+
+#import "BaseViewModel.h"
+#import "TUWanNetManager.h"
+
+@interface TuWanPicViewModel : BaseViewModel
+/**必须用*/
+-(id)initWithAid:(NSString *)aid;
+/**aid的赋值应该是非空，使用xcode7新加入的非空标识 */
+@property (nonatomic,strong)  NSString *aid;
+
+
+@property (nonatomic) NSInteger rowNumber;
+-(NSURL *)picURLForRow:(NSInteger)row;
+@property (nonatomic,strong) TuWanPicModel *picModel;
+@end

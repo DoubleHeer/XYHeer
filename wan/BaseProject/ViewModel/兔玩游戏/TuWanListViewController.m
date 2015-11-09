@@ -12,6 +12,7 @@
 #import "TuWanImageCell.h"
 #import "iCarousel.h"
 #import "TuWanHtmlViewController.h"
+#import "TuWanPicViewController.h"
 
 @interface TuWanListViewController()<iCarouselDelegate,iCarouselDataSource>
 @property (nonatomic,strong)TuWanViewModel *tuwanVM;
@@ -36,6 +37,7 @@
 /**头部滚动视图*/
 -(UIView *)headerView{
     [_timer invalidate];
+    
     //如果当前没有头部视图，返回nil
     if (!self.tuwanVM.isExistIndexPic) {
         return nil;
@@ -130,15 +132,19 @@
 
 /**监听滚动到第几个*/
 -(void)carouselCurrentItemIndexDidChange:(iCarousel *)carousel{
-    NSLog(@"%ld",carousel.currentItemIndex);
+   // NSLog(@"%ld",carousel.currentItemIndex);
     _titleLb.text = [self.tuwanVM titleForRowInIndexPic:carousel.currentItemIndex];
     _pageControl.currentPage = carousel.currentItemIndex;
 }
 
 /**滚动栏被选中触发*/
 -(void)carousel:(iCarousel *)carousel didSelectItemAtIndex:(NSInteger)index{
-    if ([self.tuwanVM isHtmlInListForRow:index]) {
+    if ([self.tuwanVM isHtmlInIndexPicForRow:index]) {
         TuWanHtmlViewController *vc = [[TuWanHtmlViewController alloc]initWithURL:[self.tuwanVM detailURLForRowInIndexPic:index]];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if ([self.tuwanVM isPicInIndexPicForRow:index]) {
+        TuWanPicViewController *vc = [[TuWanPicViewController alloc]initWithAid:[self.tuwanVM aidInIndexPicForRow:index]];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }
@@ -203,6 +209,10 @@ kRemoveCellSeparator
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     if ([self.tuwanVM isHtmlInListForRow:indexPath.row]) {
         TuWanHtmlViewController *vc = [[TuWanHtmlViewController alloc]initWithURL:[self.tuwanVM detailURLForRowInList:indexPath.row]];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if ([self.tuwanVM isPicInListForRow:indexPath.row]) {
+        TuWanPicViewController *vc = [[TuWanPicViewController alloc]initWithAid:[self.tuwanVM aidInListForRow:indexPath.row]];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

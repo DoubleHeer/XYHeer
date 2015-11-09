@@ -120,6 +120,15 @@
     return [[self modelForArr:self.indexPicArr row:row].type isEqualToString:@"all"];
 }
 
+/**返回某行数据的aid*/
+-(NSString *)aidInListForRow:(NSInteger)row{
+    return [self modelForArr:self.dataArr row:row].aid;
+}
+
+-(NSString *)aidInIndexPicForRow:(NSInteger)row{
+    return [self modelForArr:self.indexPicArr row:row].aid;
+}
+
 #pragma mark - 获取数据
 //获取更多
 - (void)getMoreDataCompletionHandle:(CompletionHandle)completionHandle{
