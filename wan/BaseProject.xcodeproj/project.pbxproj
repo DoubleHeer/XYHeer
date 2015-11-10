@@ -99,6 +99,11 @@
 		8542ED551BEB09A8006067D7 /* MyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED541BEB09A8006067D7 /* MyInfoViewController.m */; };
 		8542ED581BEB09D9006067D7 /* RankListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED571BEB09D9006067D7 /* RankListViewController.m */; };
 		8542ED5B1BEB0A0C006067D7 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED5A1BEB0A0C006067D7 /* LeftViewController.m */; };
+		854D24D71BF1975A00615A47 /* MusicDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 854D24D61BF1975A00615A47 /* MusicDetailCell.m */; };
+		854D24DA1BF1C37200615A47 /* XiMaAlbumViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 854D24D91BF1C37200615A47 /* XiMaAlbumViewModel.m */; };
+		854D24DD1BF1CE6600615A47 /* MusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 854D24DC1BF1CE6600615A47 /* MusicListViewController.m */; };
+		854D24DF1BF1E1F600615A47 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854D24DE1BF1E1F600615A47 /* AVFoundation.framework */; };
+		854D24E21BF1E23300615A47 /* PlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 854D24E11BF1E23300615A47 /* PlayView.m */; };
 		855C471E1BF02CA800E24FAB /* TuWanPicViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C471D1BF02CA800E24FAB /* TuWanPicViewModel.m */; };
 		855C47231BF02DD600E24FAB /* TuWanPicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C47201BF02DD600E24FAB /* TuWanPicModel.m */; };
 		855C47241BF02DD600E24FAB /* TuWanVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C47221BF02DD600E24FAB /* TuWanVideoModel.m */; };
@@ -272,6 +277,15 @@
 		8542ED571BEB09D9006067D7 /* RankListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankListViewController.m; sourceTree = "<group>"; };
 		8542ED591BEB0A0C006067D7 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		8542ED5A1BEB0A0C006067D7 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		854D24D51BF1975A00615A47 /* MusicDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicDetailCell.h; sourceTree = "<group>"; };
+		854D24D61BF1975A00615A47 /* MusicDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicDetailCell.m; sourceTree = "<group>"; };
+		854D24D81BF1C37200615A47 /* XiMaAlbumViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaAlbumViewModel.h; sourceTree = "<group>"; };
+		854D24D91BF1C37200615A47 /* XiMaAlbumViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaAlbumViewModel.m; sourceTree = "<group>"; };
+		854D24DB1BF1CE6600615A47 /* MusicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListViewController.h; sourceTree = "<group>"; };
+		854D24DC1BF1CE6600615A47 /* MusicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListViewController.m; sourceTree = "<group>"; };
+		854D24DE1BF1E1F600615A47 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		854D24E01BF1E23300615A47 /* PlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayView.h; sourceTree = "<group>"; };
+		854D24E11BF1E23300615A47 /* PlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayView.m; sourceTree = "<group>"; };
 		855C471C1BF02CA800E24FAB /* TuWanPicViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanPicViewModel.h; sourceTree = "<group>"; };
 		855C471D1BF02CA800E24FAB /* TuWanPicViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanPicViewModel.m; sourceTree = "<group>"; };
 		855C471F1BF02DD600E24FAB /* TuWanPicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanPicModel.h; sourceTree = "<group>"; };
@@ -294,6 +308,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				854D24DF1BF1E1F600615A47 /* AVFoundation.framework in Frameworks */,
 				3885C90B1BE8EA70009441EA /* libz.tbd in Frameworks */,
 				3885C9091BE8EA6A009441EA /* libstdc++.tbd in Frameworks */,
 				3885C9071BE8EA62009441EA /* CoreTelephony.framework in Frameworks */,
@@ -594,6 +609,10 @@
 				853D3AB21BEC7F970015F5C3 /* XYImageView.m */,
 				855C47281BF04C2B00E24FAB /* XiMaCategoryCell.h */,
 				855C47291BF04C2B00E24FAB /* XiMaCategoryCell.m */,
+				854D24D51BF1975A00615A47 /* MusicDetailCell.h */,
+				854D24D61BF1975A00615A47 /* MusicDetailCell.m */,
+				854D24E01BF1E23300615A47 /* PlayView.h */,
+				854D24E11BF1E23300615A47 /* PlayView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -730,6 +749,8 @@
 			children = (
 				8542ED561BEB09D9006067D7 /* RankListViewController.h */,
 				8542ED571BEB09D9006067D7 /* RankListViewController.m */,
+				854D24DB1BF1CE6600615A47 /* MusicListViewController.h */,
+				854D24DC1BF1CE6600615A47 /* MusicListViewController.m */,
 			);
 			path = "喜马拉雅";
 			sourceTree = "<group>";
@@ -764,6 +785,8 @@
 			children = (
 				850E73731BF0753F005B5DF1 /* XiMaCategoryViewModel.h */,
 				850E73741BF0753F005B5DF1 /* XiMaCategoryViewModel.m */,
+				854D24D81BF1C37200615A47 /* XiMaAlbumViewModel.h */,
+				854D24D91BF1C37200615A47 /* XiMaAlbumViewModel.m */,
 			);
 			path = "喜马拉雅";
 			sourceTree = "<group>";
@@ -780,6 +803,7 @@
 		FA3445AEA3874C1D4FE61EAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				854D24DE1BF1E1F600615A47 /* AVFoundation.framework */,
 				3885C90A1BE8EA70009441EA /* libz.tbd */,
 				3885C9081BE8EA6A009441EA /* libstdc++.tbd */,
 				3885C9061BE8EA62009441EA /* CoreTelephony.framework */,
@@ -953,16 +977,19 @@
 				8542ED311BEB0846006067D7 /* HeroEquipModel.m in Sources */,
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
 				8542ED271BEB0846006067D7 /* AllHerosModel.m in Sources */,
+				854D24DD1BF1CE6600615A47 /* MusicListViewController.m in Sources */,
 				8542ED2B1BEB0846006067D7 /* EquiqListModel.m in Sources */,
 				8542ED341BEB0846006067D7 /* HeroSkinsModel.m in Sources */,
 				3885C8FA1BE8E96A009441EA /* PSCollectionViewCell.m in Sources */,
 				8542ED521BEB097B006067D7 /* TuWanViewController.m in Sources */,
+				854D24D71BF1975A00615A47 /* MusicDetailCell.m in Sources */,
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
 				8542ED391BEB0846006067D7 /* TuWanBaseModel.m in Sources */,
 				8542ED2C1BEB0846006067D7 /* FreeHerosModel.m in Sources */,
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
 				855C47241BF02DD600E24FAB /* TuWanVideoModel.m in Sources */,
 				855C47231BF02DD600E24FAB /* TuWanPicModel.m in Sources */,
+				854D24E21BF1E23300615A47 /* PlayView.m in Sources */,
 				853D3AB61BEC98720015F5C3 /* TuWanHtmlViewController.m in Sources */,
 				8542ED361BEB0846006067D7 /* RunesModel.m in Sources */,
 				855C471E1BF02CA800E24FAB /* TuWanPicViewModel.m in Sources */,
@@ -993,6 +1020,7 @@
 				3886C0981BD748830014E661 /* main.m in Sources */,
 				8542ED3A1BEB0846006067D7 /* MusicCategoryModel.m in Sources */,
 				8542ED421BEB0857006067D7 /* DuoWanNetManager.m in Sources */,
+				854D24DA1BF1C37200615A47 /* XiMaAlbumViewModel.m in Sources */,
 				8542ED5B1BEB0A0C006067D7 /* LeftViewController.m in Sources */,
 				8542ED2A1BEB0846006067D7 /* EquiqDetailModel.m in Sources */,
 				3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */,

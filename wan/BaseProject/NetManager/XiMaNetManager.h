@@ -16,6 +16,6 @@
 +(id)getMusicWithPageId:(NSInteger)pageId completeHandle:(void(^)(MusicModel *model,NSError *error))completeHandle;
 
 
-+(id)getMusicCategoryPage:(NSInteger)page completeHandle:(void(^)(MusicCategoryModel *model,NSError *error))completeHandle;
++(id)getMusicCategoryAlbumId:(NSInteger)albumId PageId:(NSInteger)pageId completeHandle:(void(^)(MusicCategoryModel *model,NSError *error))completeHandle;
 
 @end

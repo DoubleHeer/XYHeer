@@ -24,9 +24,9 @@
 }
 
 
-+(id)getMusicCategoryPage:(NSInteger)page completeHandle:(void(^)(MusicCategoryModel *model,NSError *error))completeHandle{
++(id)getMusicCategoryAlbumId:(NSInteger)albumId PageId:(NSInteger)pageId completeHandle:(void(^)(MusicCategoryModel *model,NSError *error))completeHandle{
     
-    NSString *path = [NSString stringWithFormat:@"http://mobile.ximalaya.com/mobile/others/ca/album/track/3092772/true/%ld/20?device=iPhone",page];
+    NSString *path = [NSString stringWithFormat:@"http://mobile.ximalaya.com/mobile/others/ca/album/track/%ld/true/%ld/20?device=iPhone",albumId,pageId];
     //path = [path stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
         completeHandle([MusicCategoryModel objectWithKeyValues:responseObj],error);

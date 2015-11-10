@@ -21,7 +21,7 @@
        // [self showErrorMsg:@"没有更多数据"];
         NSError *err = [NSError errorWithDomain:@"" code:999 userInfo:@{NSLocalizedDescriptionKey:@"没有更多数据了"}];
        
-        completionHandle(nil);
+        completionHandle(err);
         return;
     }
     _pageId += 1;
