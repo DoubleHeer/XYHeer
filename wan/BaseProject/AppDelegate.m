@@ -22,6 +22,7 @@
     [self initializeWithApplication:application];
    
     self.window.rootViewController = self.sideMenu;
+    
     [self configGlobalUIStyle];//配置全局UI样式
     
     return YES;

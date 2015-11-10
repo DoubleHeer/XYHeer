@@ -64,6 +64,7 @@
 		3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BA1BD74AE90014E661 /* BaseViewModel.m */; };
 		3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BD1BD74AFE0014E661 /* BaseNetManager.m */; };
 		3886C0C11BD74B090014E661 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0C01BD74B090014E661 /* BaseModel.m */; };
+		850E73751BF0753F005B5DF1 /* XiMaCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 850E73741BF0753F005B5DF1 /* XiMaCategoryViewModel.m */; };
 		853D3AAA1BEC394B0015F5C3 /* TuWanListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853D3AA91BEC394B0015F5C3 /* TuWanListViewController.m */; };
 		853D3AAD1BEC39BE0015F5C3 /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 853D3AAC1BEC39BE0015F5C3 /* TuWanListCell.m */; };
 		853D3AB01BEC44040015F5C3 /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 853D3AAF1BEC44040015F5C3 /* TuWanImageCell.m */; };
@@ -200,6 +201,8 @@
 		3886C0C21BD74B430014E661 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		850E73731BF0753F005B5DF1 /* XiMaCategoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XiMaCategoryViewModel.h; path = "../兔玩游戏/XiMaCategoryViewModel.h"; sourceTree = "<group>"; };
+		850E73741BF0753F005B5DF1 /* XiMaCategoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XiMaCategoryViewModel.m; path = "../兔玩游戏/XiMaCategoryViewModel.m"; sourceTree = "<group>"; };
 		853D3AA81BEC394B0015F5C3 /* TuWanListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TuWanListViewController.h; path = "../../ViewModel/兔玩游戏/TuWanListViewController.h"; sourceTree = "<group>"; };
 		853D3AA91BEC394B0015F5C3 /* TuWanListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TuWanListViewController.m; path = "../../ViewModel/兔玩游戏/TuWanListViewController.m"; sourceTree = "<group>"; };
 		853D3AAB1BEC39BE0015F5C3 /* TuWanListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanListCell.h; sourceTree = "<group>"; };
@@ -759,6 +762,8 @@
 		8542ED4C1BEB0879006067D7 /* 喜马拉雅 */ = {
 			isa = PBXGroup;
 			children = (
+				850E73731BF0753F005B5DF1 /* XiMaCategoryViewModel.h */,
+				850E73741BF0753F005B5DF1 /* XiMaCategoryViewModel.m */,
 			);
 			path = "喜马拉雅";
 			sourceTree = "<group>";
@@ -981,6 +986,7 @@
 				855C472A1BF04C2B00E24FAB /* XiMaCategoryCell.m in Sources */,
 				8542ED301BEB0846006067D7 /* HeroDubModel.m in Sources */,
 				8542ED331BEB0846006067D7 /* HeroMaterialModel.m in Sources */,
+				850E73751BF0753F005B5DF1 /* XiMaCategoryViewModel.m in Sources */,
 				8542ED431BEB0857006067D7 /* TUWanNetManager.m in Sources */,
 				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
 				8542ED371BEB0846006067D7 /* SumAbilityModel.m in Sources */,
