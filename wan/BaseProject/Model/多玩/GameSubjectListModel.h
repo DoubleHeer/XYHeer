@@ -8,15 +8,9 @@
 
 #import "BaseModel.h"
 //游戏百科列表
-@class GameSubjectListSubjectModel;
 
 @interface GameSubjectListModel : BaseModel
 
-@property (nonatomic, strong) NSArray<GameSubjectListSubjectModel *> *subjects;
-
-@end
-
-@interface GameSubjectListSubjectModel : NSObject
 
 @property (nonatomic, copy) NSString *icon;
 

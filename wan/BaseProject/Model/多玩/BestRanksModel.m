@@ -10,14 +10,6 @@
 
 @implementation BestRanksModel
 
-+ (NSDictionary *)objectClassInArray{
-    return @{@"ranks" : [BestRanksDetailModel class]};
-}
-
-@end
-
-@implementation BestRanksDetailModel
-
 @end
 
 

@@ -8,15 +8,11 @@
 
 #import "BaseModel.h"
 //最佳阵容
-@class BestRanksDetailModel;
+
 
 @interface BestRanksModel : BaseModel
 
-@property (nonatomic, strong) NSArray<BestRanksDetailModel *> *ranks;
 
-@end
-
-@interface BestRanksDetailModel : NSObject
 
 @property (nonatomic, copy) NSString *hero5;
 

@@ -119,11 +119,11 @@
 //装备详情 http://lolbox.duowan.com/phone/apiItemDetail.php?id=3004&v=140&OSType=iOS9.1
 
 //游戏百科列表
-+(id)getGameSubjectListWithCompleteHandle:(void(^)(GameSubjectListModel *model,NSError *error))completeHandle{
++(id)getGameSubjectListWithCompleteHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle{
     NSString *path = [NSString stringWithFormat:@"%@?category=database&v=140&OSType=%@&versionName=2.4.0",kGameSubjectPath,kOSType];
     path = [path stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
-        completeHandle([GameSubjectListModel objectWithKeyValues:responseObj],error);
+        completeHandle([GameSubjectListModel objectArrayWithKeyValuesArray:responseObj],error);
     }];
 }
 //装备分类
@@ -181,11 +181,11 @@
     }];
 }
 //最强阵容
-+(id)getBestRanksWithCompleteHandle:(void(^)(BestRanksModel *model,NSError *error))completeHandle{
-    NSString *path = [NSString stringWithFormat:@"%@?v=140&OSType=%@",kGiftPath,kOSType];
++(id)getBestRanksWithCompleteHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle{
+    NSString *path = [NSString stringWithFormat:@"%@?v=140&OSType=%@",kBestRanksPath,kOSType];
     path = [path stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
-        completeHandle([BestRanksModel objectWithKeyValues:responseObj],error);
+        completeHandle([BestRanksModel objectArrayWithKeyValuesArray:responseObj],error);
     }];
 }
 

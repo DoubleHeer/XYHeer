@@ -33,7 +33,7 @@
 
 //==========游戏百科==========
 //游戏百科列表
-+(id)getGameSubjectListWithCompleteHandle:(void(^)(GameSubjectListModel *model,NSError *error))completeHandle;
++(id)getGameSubjectListWithCompleteHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle;
 //装备分类
 +(id)getEquiqCategoryWithCompleteHandle:(void(^)(EquiqCategoryModel *model,NSError *error))completeHandle;
 //某分类装备列表
@@ -48,7 +48,7 @@
 //召唤师技能列表
 +(id)getSumAbilityWithCompleteHandle:(void(^)(SumAbilityModel *model,NSError *error))completeHandle;
 //最强阵容
-+(id)getBestRanksWithCompleteHandle:(void(^)(BestRanksModel *model,NSError *error))completeHandle;
++(id)getBestRanksWithCompleteHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle;
 
 //英雄配音
 +(id)getHeroDubWithHero:(NSString *)hero completeHandel:(void(^)(HeroDubModel *model,NSError *error))completeHandle;

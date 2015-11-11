@@ -11,12 +11,6 @@
 @implementation GameSubjectListModel
 
 
-+ (NSDictionary *)objectClassInArray{
-    return @{@"subjects" : [GameSubjectListSubjectModel class]};
-}
-@end
-
-@implementation GameSubjectListSubjectModel
 
 @end
 

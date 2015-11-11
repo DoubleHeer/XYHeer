@@ -69,6 +69,11 @@
 		851B6C3E1BF2D0FC0086A360 /* BaiKeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C3D1BF2D0FC0086A360 /* BaiKeViewController.m */; };
 		851B6C411BF2D1290086A360 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C401BF2D1290086A360 /* SearchViewController.m */; };
 		851B6C441BF2DBB20086A360 /* SearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C431BF2DBB20086A360 /* SearchDetailViewController.m */; };
+		851B6C471BF2E9910086A360 /* ToolMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C461BF2E9910086A360 /* ToolMenuViewModel.m */; };
+		851B6C4B1BF319310086A360 /* BestGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C4A1BF319310086A360 /* BestGroupViewController.m */; };
+		851B6C4E1BF31BA60086A360 /* BestGroupViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C4D1BF31BA60086A360 /* BestGroupViewModel.m */; };
+		851B6C511BF31C420086A360 /* BestGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C501BF31C420086A360 /* BestGroupDetailViewController.m */; };
+		851B6C541BF335780086A360 /* BestGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C531BF335780086A360 /* BestGroupCell.m */; };
 		853D3AAA1BEC394B0015F5C3 /* TuWanListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853D3AA91BEC394B0015F5C3 /* TuWanListViewController.m */; };
 		853D3AAD1BEC39BE0015F5C3 /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 853D3AAC1BEC39BE0015F5C3 /* TuWanListCell.m */; };
 		853D3AB01BEC44040015F5C3 /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 853D3AAF1BEC44040015F5C3 /* TuWanImageCell.m */; };
@@ -220,6 +225,16 @@
 		851B6C401BF2D1290086A360 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		851B6C421BF2DBB20086A360 /* SearchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDetailViewController.h; sourceTree = "<group>"; };
 		851B6C431BF2DBB20086A360 /* SearchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDetailViewController.m; sourceTree = "<group>"; };
+		851B6C451BF2E9910086A360 /* ToolMenuViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolMenuViewModel.h; sourceTree = "<group>"; };
+		851B6C461BF2E9910086A360 /* ToolMenuViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolMenuViewModel.m; sourceTree = "<group>"; };
+		851B6C491BF319310086A360 /* BestGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupViewController.h; sourceTree = "<group>"; };
+		851B6C4A1BF319310086A360 /* BestGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupViewController.m; sourceTree = "<group>"; };
+		851B6C4C1BF31BA60086A360 /* BestGroupViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupViewModel.h; sourceTree = "<group>"; };
+		851B6C4D1BF31BA60086A360 /* BestGroupViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupViewModel.m; sourceTree = "<group>"; };
+		851B6C4F1BF31C420086A360 /* BestGroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupDetailViewController.h; sourceTree = "<group>"; };
+		851B6C501BF31C420086A360 /* BestGroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupDetailViewController.m; sourceTree = "<group>"; };
+		851B6C521BF335780086A360 /* BestGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupCell.h; sourceTree = "<group>"; };
+		851B6C531BF335780086A360 /* BestGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupCell.m; sourceTree = "<group>"; };
 		853D3AA81BEC394B0015F5C3 /* TuWanListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TuWanListViewController.h; path = "../../ViewModel/兔玩游戏/TuWanListViewController.h"; sourceTree = "<group>"; };
 		853D3AA91BEC394B0015F5C3 /* TuWanListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TuWanListViewController.m; path = "../../ViewModel/兔玩游戏/TuWanListViewController.m"; sourceTree = "<group>"; };
 		853D3AAB1BEC39BE0015F5C3 /* TuWanListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanListCell.h; sourceTree = "<group>"; };
@@ -625,6 +640,8 @@
 				854D24D61BF1975A00615A47 /* MusicDetailCell.m */,
 				854D24E01BF1E23300615A47 /* PlayView.h */,
 				854D24E11BF1E23300615A47 /* PlayView.m */,
+				851B6C521BF335780086A360 /* BestGroupCell.h */,
+				851B6C531BF335780086A360 /* BestGroupCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -653,6 +670,17 @@
 				3886C0BA1BD74AE90014E661 /* BaseViewModel.m */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		851B6C481BF3184C0086A360 /* 百科详情 */ = {
+			isa = PBXGroup;
+			children = (
+				851B6C491BF319310086A360 /* BestGroupViewController.h */,
+				851B6C4A1BF319310086A360 /* BestGroupViewController.m */,
+				851B6C4F1BF31C420086A360 /* BestGroupDetailViewController.h */,
+				851B6C501BF31C420086A360 /* BestGroupDetailViewController.m */,
+			);
+			path = "百科详情";
 			sourceTree = "<group>";
 		};
 		8542ECF91BEB0846006067D7 /* 多玩 */ = {
@@ -728,6 +756,7 @@
 			children = (
 				8542ED4D1BEB0906006067D7 /* DuoWabTabBarController.h */,
 				8542ED4E1BEB0906006067D7 /* DuoWabTabBarController.m */,
+				851B6C481BF3184C0086A360 /* 百科详情 */,
 				851B6C391BF2D0CD0086A360 /* HeroViewController.h */,
 				851B6C3A1BF2D0CD0086A360 /* HeroViewController.m */,
 				851B6C3C1BF2D0FC0086A360 /* BaiKeViewController.h */,
@@ -778,6 +807,10 @@
 		8542ED491BEB0879006067D7 /* 多玩盒子 */ = {
 			isa = PBXGroup;
 			children = (
+				851B6C451BF2E9910086A360 /* ToolMenuViewModel.h */,
+				851B6C461BF2E9910086A360 /* ToolMenuViewModel.m */,
+				851B6C4C1BF31BA60086A360 /* BestGroupViewModel.h */,
+				851B6C4D1BF31BA60086A360 /* BestGroupViewModel.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -989,11 +1022,13 @@
 				855C47271BF0317100E24FAB /* TuWanPicViewController.m in Sources */,
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
 				85E99D4D1BEB46DE006B502F /* Factory.m in Sources */,
+				851B6C4E1BF31BA60086A360 /* BestGroupViewModel.m in Sources */,
 				8542ED381BEB0846006067D7 /* WeekDataModel.m in Sources */,
 				853D3AAA1BEC394B0015F5C3 /* TuWanListViewController.m in Sources */,
 				8542ED581BEB09D9006067D7 /* RankListViewController.m in Sources */,
 				8542ED551BEB09A8006067D7 /* MyInfoViewController.m in Sources */,
 				8542ED291BEB0846006067D7 /* EquiqCategoryModel.m in Sources */,
+				851B6C511BF31C420086A360 /* BestGroupDetailViewController.m in Sources */,
 				8542ED311BEB0846006067D7 /* HeroEquipModel.m in Sources */,
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
 				851B6C3E1BF2D0FC0086A360 /* BaiKeViewController.m in Sources */,
@@ -1019,6 +1054,7 @@
 				853D3AAD1BEC39BE0015F5C3 /* TuWanListCell.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
 				8542ED4F1BEB0906006067D7 /* DuoWabTabBarController.m in Sources */,
+				851B6C4B1BF319310086A360 /* BestGroupViewController.m in Sources */,
 				853D3AB31BEC7F970015F5C3 /* XYImageView.m in Sources */,
 				3885C8981BE8E88D009441EA /* iCarousel.m in Sources */,
 				8542ED351BEB0846006067D7 /* HeroVideoModel.m in Sources */,
@@ -1030,6 +1066,7 @@
 				3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */,
 				851B6C411BF2D1290086A360 /* SearchViewController.m in Sources */,
 				8542ED2F1BEB0846006067D7 /* HeroChangedModel.m in Sources */,
+				851B6C471BF2E9910086A360 /* ToolMenuViewModel.m in Sources */,
 				8542ED321BEB0846006067D7 /* HeroGiftModel.m in Sources */,
 				85E99D501BEB49E2006B502F /* TuWanViewModel.m in Sources */,
 				8542ED441BEB0857006067D7 /* XiMaNetManager.m in Sources */,
@@ -1042,6 +1079,7 @@
 				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
 				8542ED371BEB0846006067D7 /* SumAbilityModel.m in Sources */,
 				3886C0981BD748830014E661 /* main.m in Sources */,
+				851B6C541BF335780086A360 /* BestGroupCell.m in Sources */,
 				8542ED3A1BEB0846006067D7 /* MusicCategoryModel.m in Sources */,
 				8542ED421BEB0857006067D7 /* DuoWanNetManager.m in Sources */,
 				854D24DA1BF1C37200615A47 /* XiMaAlbumViewModel.m in Sources */,
