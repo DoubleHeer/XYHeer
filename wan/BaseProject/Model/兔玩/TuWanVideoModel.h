@@ -60,6 +60,7 @@
 @property (nonatomic, copy) NSString *desc;
 
 @end
+
 @interface TuWanVideoContentModel : BaseModel
 
 @property (nonatomic, copy) NSString *video;

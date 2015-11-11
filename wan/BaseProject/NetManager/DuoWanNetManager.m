@@ -34,24 +34,24 @@
 @implementation DuoWanNetManager
 //免费英雄http://lolbox.duowan.com/phone/apiHeroes.php?type=free&v=140&OSType=iOS9.1
 //全部英雄http://lolbox.duowan.com/phone/apiHeroes.php?type=all&v=140&OSType=iOS9.1
-+(id)getFreeHeroListWithCompleteHandle:(void(^)(FreeHerosModel *model,NSError *error))completeHandle{
++(id)getFreeHeroListWithCompleteHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle{
     NSString *path = [NSString stringWithFormat:@"%@?type=free&v=140&OSType=%@",kHeroPath,kOSType];
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
-        completeHandle([FreeHerosModel objectWithKeyValues:responseObj],error);
+        completeHandle([AllHerosModel objectArrayWithKeyValuesArray:responseObj],error);
     }];
 }
-+(id)getAllHeroListWithCompleteHandle:(void(^)(AllHerosModel *model,NSError *error))completeHandle{
++(id)getAllHeroListWithCompleteHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle{
     NSString *path = [NSString stringWithFormat:@"%@?type=all&v=140&OSType=%@",kHeroPath,kOSType];
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
-        completeHandle([AllHerosModel objectWithKeyValues:responseObj],error);
+        completeHandle([AllHerosModel objectArrayWithKeyValuesArray:responseObj],error);
     }];
 }
 //英雄视频http://box.dwstatic.com/apiVideoesNormalDuowan.php?action=l&p=1&v=140&OSType=iOS9.1&tag=Braum&src=letv
-+(id)getHeroVideoWithTag:(NSString *)tag completeHandle:(void(^)(HeroVideoModel *model,NSError *error))completeHandle{
++(id)getHeroVideoWithTag:(NSString *)tag completeHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle{
     NSString *path = [NSString stringWithFormat:@"%@?action=l&p=1&v=140&OSType=i%@&tag=%@&src=letv",kHeroVideoPath,kOSType,tag];
     path = [path stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
-        completeHandle([HeroVideoModel objectWithKeyValues:responseObj],error);
+        completeHandle([HeroVideoModel objectArrayWithKeyValuesArray:responseObj],error);
     }];
 }
 //英雄出装http://db.duowan.com/lolcz/img/ku11/api/lolcz.php?v=140&OSType=iOS9.1&championName=Braum&limit=7
@@ -59,19 +59,19 @@
 //英雄资料http://lolbox.duowan.com/phone/apiHeroDetail.php?OSType=iOS9.1&heroName=Braum&v=140
 
 //英雄出装
-+(id)getHeroEquipWithChampionName:(NSString *)championName completeHandle:(void(^)(HeroEquipModel *model,NSError *error))completeHandle{
++(id)getHeroEquipWithChampionName:(NSString *)championName completeHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle{
     NSString *path = [NSString stringWithFormat:@"%@?v=140&OSType=%@&championName=%@&limit=7",kHeroEquipPath,kOSType,championName];
     path = [path stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
-        completeHandle([HeroEquipModel objectWithKeyValues:responseObj],error);
+        completeHandle([HeroEquipModel objectArrayWithKeyValuesArray:responseObj],error);
     }];
 }
 //英雄皮肤
-+(id)getHeroSkinsWithHero:(NSString *)hero completeHandle:(void(^)(HeroSkinsModel *model,NSError *error))completeHandle{
++(id)getHeroSkinsWithHero:(NSString *)hero completeHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle{
     NSString *path = [NSString stringWithFormat:@"%@?hero=%@&v=140&OSType=%@&versionName=2.4.0",kHeroSkinPath,hero,kOSType];
     path = [path stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
-        completeHandle([HeroSkinsModel objectWithKeyValues:responseObj],error);
+        completeHandle([HeroSkinsModel objectArrayWithKeyValuesArray:responseObj],error);
     }];
 }
 //英雄资料
@@ -88,11 +88,11 @@
 //一周数据 http://183.61.12.108/apiHeroWeekData.php?heroId=72
 
 //天赋符文
-+(id)getHeroGiftWithHero:(NSString *)hero completeHandle:(void(^)(HeroGiftModel *model,NSError *error))completeHandle{
++(id)getHeroGiftWithHero:(NSString *)hero completeHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle{
     NSString *path = [NSString stringWithFormat:@"%@?hero=%@&v=140&OSType=%@",kHeroGiftPath,hero,kOSType];
     path = [path stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
-        completeHandle([HeroGiftModel objectWithKeyValues:responseObj],error);
+        completeHandle([HeroGiftModel objectArrayWithKeyValuesArray:responseObj],error);
     }];
 }
 //英雄改动
@@ -127,19 +127,19 @@
     }];
 }
 //装备分类
-+(id)getEquiqCategoryWithCompleteHandle:(void(^)(EquiqCategoryModel *model,NSError *error))completeHandle{
++(id)getEquiqCategoryWithCompleteHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle{
     NSString *path = [NSString stringWithFormat:@"%@?v=140&OSType=%@&versionName=2.4.0",kEquiqCategoryPath,kOSType];
     path = [path stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
-        completeHandle([EquiqCategoryModel objectWithKeyValues:responseObj],error);
+        completeHandle([EquiqCategoryModel objectArrayWithKeyValuesArray:responseObj],error);
     }];
 }
 //某分类装备列表
-+(id)getEquiqListWithTag:(NSString *)tag completeHandle:(void(^)(EquiqListModel *model,NSError *error))completeHandle{
++(id)getEquiqListWithTag:(NSString *)tag completeHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle{
     NSString *path = [NSString stringWithFormat:@"%@?tag=%@&v=140&OSType=%@&versionName=2.4.0",kEquiqListPath,tag,kOSType];
     path = [path stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
-        completeHandle([EquiqListModel objectWithKeyValues:responseObj],error);
+        completeHandle([EquiqListModel objectArrayWithKeyValuesArray:responseObj],error);
     }];
 }
 //装备详情
@@ -166,18 +166,18 @@
 }
 //符文列表
 +(id)getRunesWithCompleteHandle:(void(^)(RunesModel *model,NSError *error))completeHandle{
-    NSString *path = [NSString stringWithFormat:@"%@?v=140&OSType=%@",kGiftPath,kOSType];
+    NSString *path = [NSString stringWithFormat:@"%@?v=140&OSType=%@",kRunesPath,kOSType];
     path = [path stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
         completeHandle([RunesModel objectWithKeyValues:responseObj],error);
     }];
 }
 //召唤师技能列表
-+(id)getSumAbilityWithCompleteHandle:(void(^)(SumAbilityModel *model,NSError *error))completeHandle{
-    NSString *path = [NSString stringWithFormat:@"%@?v=140&OSType=%@",kGiftPath,kOSType];
++(id)getSumAbilityWithCompleteHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle{
+    NSString *path = [NSString stringWithFormat:@"%@?v=140&OSType=%@",kSumAbilityPath,kOSType];
     path = [path stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
-        completeHandle([SumAbilityModel objectWithKeyValues:responseObj],error);
+        completeHandle([SumAbilityModel objectArrayWithKeyValuesArray:responseObj],error);
     }];
 }
 //最强阵容

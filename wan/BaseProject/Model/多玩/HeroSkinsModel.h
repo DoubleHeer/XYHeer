@@ -8,15 +8,11 @@
 
 #import "BaseModel.h"
 //英雄皮肤
-@class HeroSkinDetailModel;
+
 
 @interface HeroSkinsModel : BaseModel
 
-@property (nonatomic, strong) NSArray<HeroSkinDetailModel *> *skins;
 
-@end
-
-@interface HeroSkinDetailModel : NSObject
 
 @property (nonatomic, copy) NSString *id;
 

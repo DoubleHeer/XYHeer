@@ -84,7 +84,6 @@
 		8542ED291BEB0846006067D7 /* EquiqCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED001BEB0846006067D7 /* EquiqCategoryModel.m */; };
 		8542ED2A1BEB0846006067D7 /* EquiqDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED021BEB0846006067D7 /* EquiqDetailModel.m */; };
 		8542ED2B1BEB0846006067D7 /* EquiqListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED041BEB0846006067D7 /* EquiqListModel.m */; };
-		8542ED2C1BEB0846006067D7 /* FreeHerosModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED061BEB0846006067D7 /* FreeHerosModel.m */; };
 		8542ED2D1BEB0846006067D7 /* GameSubjectListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED081BEB0846006067D7 /* GameSubjectListModel.m */; };
 		8542ED2E1BEB0846006067D7 /* GiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED0A1BEB0846006067D7 /* GiftModel.m */; };
 		8542ED2F1BEB0846006067D7 /* HeroChangedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED0C1BEB0846006067D7 /* HeroChangedModel.m */; };
@@ -256,8 +255,6 @@
 		8542ED021BEB0846006067D7 /* EquiqDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquiqDetailModel.m; sourceTree = "<group>"; };
 		8542ED031BEB0846006067D7 /* EquiqListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquiqListModel.h; sourceTree = "<group>"; };
 		8542ED041BEB0846006067D7 /* EquiqListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquiqListModel.m; sourceTree = "<group>"; };
-		8542ED051BEB0846006067D7 /* FreeHerosModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeHerosModel.h; sourceTree = "<group>"; };
-		8542ED061BEB0846006067D7 /* FreeHerosModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeHerosModel.m; sourceTree = "<group>"; };
 		8542ED071BEB0846006067D7 /* GameSubjectListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSubjectListModel.h; sourceTree = "<group>"; };
 		8542ED081BEB0846006067D7 /* GameSubjectListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameSubjectListModel.m; sourceTree = "<group>"; };
 		8542ED091BEB0846006067D7 /* GiftModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftModel.h; sourceTree = "<group>"; };
@@ -697,8 +694,6 @@
 				8542ED021BEB0846006067D7 /* EquiqDetailModel.m */,
 				8542ED031BEB0846006067D7 /* EquiqListModel.h */,
 				8542ED041BEB0846006067D7 /* EquiqListModel.m */,
-				8542ED051BEB0846006067D7 /* FreeHerosModel.h */,
-				8542ED061BEB0846006067D7 /* FreeHerosModel.m */,
 				8542ED071BEB0846006067D7 /* GameSubjectListModel.h */,
 				8542ED081BEB0846006067D7 /* GameSubjectListModel.m */,
 				8542ED091BEB0846006067D7 /* GiftModel.h */,
@@ -1041,7 +1036,6 @@
 				854D24D71BF1975A00615A47 /* MusicDetailCell.m in Sources */,
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
 				8542ED391BEB0846006067D7 /* TuWanBaseModel.m in Sources */,
-				8542ED2C1BEB0846006067D7 /* FreeHerosModel.m in Sources */,
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
 				855C47241BF02DD600E24FAB /* TuWanVideoModel.m in Sources */,
 				855C47231BF02DD600E24FAB /* TuWanPicModel.m in Sources */,

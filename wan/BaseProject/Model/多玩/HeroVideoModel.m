@@ -11,14 +11,6 @@
 @implementation HeroVideoModel
 
 
-+ (NSDictionary *)objectClassInArray{
-    return @{@"heroVideos" : [HerovideoDetailModel class]};
-}
-
-@end
-
-@implementation HerovideoDetailModel
-
 @end
 
 

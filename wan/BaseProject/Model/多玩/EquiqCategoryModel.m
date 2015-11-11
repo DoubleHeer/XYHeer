@@ -11,12 +11,6 @@
 @implementation EquiqCategoryModel
 
 
-+ (NSDictionary *)objectClassInArray{
-    return @{@"category" : [EquiqCategoryCategoryModel class]};
-}
-@end
-
-@implementation EquiqCategoryCategoryModel
 
 @end
 

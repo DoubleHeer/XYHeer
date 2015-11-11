@@ -11,14 +11,6 @@
 @implementation HeroEquipModel
 
 
-+ (NSDictionary *)objectClassInArray{
-    return @{@"equip" : [HeroEquipDetailModel class]};
-}
-
-@end
-
-@implementation HeroEquipDetailModel
-
 @end
 
 

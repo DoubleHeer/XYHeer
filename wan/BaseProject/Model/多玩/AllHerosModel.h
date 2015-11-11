@@ -12,12 +12,6 @@
 
 @interface AllHerosModel : BaseModel
 
-@property (nonatomic, strong) NSArray *all;
-
-@end
-
-
-@interface AllHerosAllModel : NSObject
 
 @property (nonatomic, copy) NSString *enName;
 

@@ -8,15 +8,10 @@
 
 #import "BaseModel.h"
 //某分类装备列表
-@class EquiaListDetailModel;
+
 
 @interface EquiqListModel : BaseModel
 
-@property (nonatomic, strong) NSArray<EquiaListDetailModel *> *lists;
-
-@end
-
-@interface EquiaListDetailModel : NSObject
 
 @property (nonatomic, assign) NSInteger ID;//
 

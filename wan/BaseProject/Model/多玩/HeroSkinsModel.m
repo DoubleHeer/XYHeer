@@ -10,13 +10,6 @@
 
 @implementation HeroSkinsModel
 
-+ (NSDictionary *)objectClassInArray{
-    return @{@"skins" : [HeroSkinDetailModel class]};
-}
-
-@end
-
-@implementation HeroSkinDetailModel
 
 @end
 

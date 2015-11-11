@@ -11,14 +11,6 @@
 @implementation EquiqListModel
 
 
-+ (NSDictionary *)objectClassInArray{
-    return @{@"lists" : [EquiaListDetailModel class]};
-}
-
-@end
-
-@implementation EquiaListDetailModel
-
 +(NSDictionary *)replacedKeyFromPropertyName{
     return @{@"ID":@"id"};
 }

@@ -8,15 +8,10 @@
 
 #import "BaseModel.h"
 //装备分类
-@class EquiqCategoryCategoryModel;
+
 
 @interface EquiqCategoryModel : BaseModel
 
-@property (nonatomic, strong) NSArray<EquiqCategoryCategoryModel *> *category;
-
-@end
-
-@interface EquiqCategoryCategoryModel : NSObject
 
 @property (nonatomic, copy) NSString *tag;
 

@@ -8,15 +8,9 @@
 
 #import "BaseModel.h"
 
-@class HerovideoDetailModel;
 
 @interface HeroVideoModel : BaseModel
 
-@property (nonatomic, strong) NSArray *heroVideos;
-
-@end
-
-@interface HerovideoDetailModel : NSObject
 
 @property (nonatomic, copy) NSString *cover_url;
 

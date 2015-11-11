@@ -9,13 +9,5 @@
 #import "HeroGiftModel.h"
 
 @implementation HeroGiftModel
-+(NSDictionary *)objectClassInArray{
-    
-    return @{@"gift":[HeroGiftDetailModel class]};
-}
-
-@end
-
-@implementation HeroGiftDetailModel
 
 @end

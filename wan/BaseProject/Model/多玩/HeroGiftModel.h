@@ -8,15 +8,9 @@
 
 #import "BaseModel.h"
 //符文天赋
-@class HeroGiftDetailModel;
+
 
 @interface HeroGiftModel : BaseModel
-
-@property (nonatomic, strong) NSArray<HeroGiftDetailModel *> *gift;
-
-@end
-
-@interface HeroGiftDetailModel : NSObject
 
 @property (nonatomic, copy) NSString *tianDes;
 

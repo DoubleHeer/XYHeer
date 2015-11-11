@@ -8,13 +8,8 @@
 
 #import "BaseModel.h"
 //英雄出装
-@class HeroEquipDetailModel;
+
 @interface HeroEquipModel : BaseModel
-
-@property (nonatomic, strong) NSArray<HeroEquipDetailModel *> *equip;
-
-@end
-@interface HeroEquipDetailModel : NSObject
 
 @property (nonatomic, copy) NSString *user_name;
 
