@@ -10,6 +10,7 @@
 #import <NSString+Icons.h>
 #import "RankListViewController.h"
 #import "TuWanViewController.h"
+#import "DuoWabTabBarController.h"
 
 @interface LeftViewController()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView;
@@ -37,6 +38,8 @@
             make.centerY.mas_equalTo(0);
             make.left.mas_equalTo(0);
         }];
+        //去掉分割线
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     }
     return _tableView;
 }
@@ -72,6 +75,9 @@
             break;
          case 1:
             [self.sideMenuViewController setContentViewController:[RankListViewController defaultNavi] animated:YES];
+            [self.sideMenuViewController hideMenuViewController];
+        case 2:
+            [self.sideMenuViewController setContentViewController:[DuoWabTabBarController standardInstance] animated:YES];
             [self.sideMenuViewController hideMenuViewController];
         default:
             break;

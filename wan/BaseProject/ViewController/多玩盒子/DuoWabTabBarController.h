@@ -10,4 +10,6 @@
 
 @interface DuoWabTabBarController : UITabBarController
 
++(DuoWabTabBarController *)standardInstance;
+
 @end

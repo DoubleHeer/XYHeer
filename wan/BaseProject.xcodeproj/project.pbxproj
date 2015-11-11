@@ -65,6 +65,10 @@
 		3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BD1BD74AFE0014E661 /* BaseNetManager.m */; };
 		3886C0C11BD74B090014E661 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0C01BD74B090014E661 /* BaseModel.m */; };
 		850E73751BF0753F005B5DF1 /* XiMaCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 850E73741BF0753F005B5DF1 /* XiMaCategoryViewModel.m */; };
+		851B6C3B1BF2D0CD0086A360 /* HeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C3A1BF2D0CD0086A360 /* HeroViewController.m */; };
+		851B6C3E1BF2D0FC0086A360 /* BaiKeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C3D1BF2D0FC0086A360 /* BaiKeViewController.m */; };
+		851B6C411BF2D1290086A360 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C401BF2D1290086A360 /* SearchViewController.m */; };
+		851B6C441BF2DBB20086A360 /* SearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C431BF2DBB20086A360 /* SearchDetailViewController.m */; };
 		853D3AAA1BEC394B0015F5C3 /* TuWanListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853D3AA91BEC394B0015F5C3 /* TuWanListViewController.m */; };
 		853D3AAD1BEC39BE0015F5C3 /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 853D3AAC1BEC39BE0015F5C3 /* TuWanListCell.m */; };
 		853D3AB01BEC44040015F5C3 /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 853D3AAF1BEC44040015F5C3 /* TuWanImageCell.m */; };
@@ -208,6 +212,14 @@
 		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		850E73731BF0753F005B5DF1 /* XiMaCategoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XiMaCategoryViewModel.h; path = "../兔玩游戏/XiMaCategoryViewModel.h"; sourceTree = "<group>"; };
 		850E73741BF0753F005B5DF1 /* XiMaCategoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XiMaCategoryViewModel.m; path = "../兔玩游戏/XiMaCategoryViewModel.m"; sourceTree = "<group>"; };
+		851B6C391BF2D0CD0086A360 /* HeroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroViewController.h; sourceTree = "<group>"; };
+		851B6C3A1BF2D0CD0086A360 /* HeroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroViewController.m; sourceTree = "<group>"; };
+		851B6C3C1BF2D0FC0086A360 /* BaiKeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiKeViewController.h; sourceTree = "<group>"; };
+		851B6C3D1BF2D0FC0086A360 /* BaiKeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiKeViewController.m; sourceTree = "<group>"; };
+		851B6C3F1BF2D1290086A360 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		851B6C401BF2D1290086A360 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		851B6C421BF2DBB20086A360 /* SearchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDetailViewController.h; sourceTree = "<group>"; };
+		851B6C431BF2DBB20086A360 /* SearchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDetailViewController.m; sourceTree = "<group>"; };
 		853D3AA81BEC394B0015F5C3 /* TuWanListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TuWanListViewController.h; path = "../../ViewModel/兔玩游戏/TuWanListViewController.h"; sourceTree = "<group>"; };
 		853D3AA91BEC394B0015F5C3 /* TuWanListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TuWanListViewController.m; path = "../../ViewModel/兔玩游戏/TuWanListViewController.m"; sourceTree = "<group>"; };
 		853D3AAB1BEC39BE0015F5C3 /* TuWanListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanListCell.h; sourceTree = "<group>"; };
@@ -716,6 +728,14 @@
 			children = (
 				8542ED4D1BEB0906006067D7 /* DuoWabTabBarController.h */,
 				8542ED4E1BEB0906006067D7 /* DuoWabTabBarController.m */,
+				851B6C391BF2D0CD0086A360 /* HeroViewController.h */,
+				851B6C3A1BF2D0CD0086A360 /* HeroViewController.m */,
+				851B6C3C1BF2D0FC0086A360 /* BaiKeViewController.h */,
+				851B6C3D1BF2D0FC0086A360 /* BaiKeViewController.m */,
+				851B6C3F1BF2D1290086A360 /* SearchViewController.h */,
+				851B6C401BF2D1290086A360 /* SearchViewController.m */,
+				851B6C421BF2DBB20086A360 /* SearchDetailViewController.h */,
+				851B6C431BF2DBB20086A360 /* SearchDetailViewController.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -976,6 +996,7 @@
 				8542ED291BEB0846006067D7 /* EquiqCategoryModel.m in Sources */,
 				8542ED311BEB0846006067D7 /* HeroEquipModel.m in Sources */,
 				3804CE541BD758F10046C8C8 /* NSString+QRCode.m in Sources */,
+				851B6C3E1BF2D0FC0086A360 /* BaiKeViewController.m in Sources */,
 				8542ED271BEB0846006067D7 /* AllHerosModel.m in Sources */,
 				854D24DD1BF1CE6600615A47 /* MusicListViewController.m in Sources */,
 				8542ED2B1BEB0846006067D7 /* EquiqListModel.m in Sources */,
@@ -991,8 +1012,10 @@
 				855C47231BF02DD600E24FAB /* TuWanPicModel.m in Sources */,
 				854D24E21BF1E23300615A47 /* PlayView.m in Sources */,
 				853D3AB61BEC98720015F5C3 /* TuWanHtmlViewController.m in Sources */,
+				851B6C441BF2DBB20086A360 /* SearchDetailViewController.m in Sources */,
 				8542ED361BEB0846006067D7 /* RunesModel.m in Sources */,
 				855C471E1BF02CA800E24FAB /* TuWanPicViewModel.m in Sources */,
+				851B6C3B1BF2D0CD0086A360 /* HeroViewController.m in Sources */,
 				853D3AAD1BEC39BE0015F5C3 /* TuWanListCell.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
 				8542ED4F1BEB0906006067D7 /* DuoWabTabBarController.m in Sources */,
@@ -1005,6 +1028,7 @@
 				8542ED281BEB0846006067D7 /* BestRanksModel.m in Sources */,
 				3804CE511BD758F10046C8C8 /* AppDelegate+Category.m in Sources */,
 				3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */,
+				851B6C411BF2D1290086A360 /* SearchViewController.m in Sources */,
 				8542ED2F1BEB0846006067D7 /* HeroChangedModel.m in Sources */,
 				8542ED321BEB0846006067D7 /* HeroGiftModel.m in Sources */,
 				85E99D501BEB49E2006B502F /* TuWanViewModel.m in Sources */,

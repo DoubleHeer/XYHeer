@@ -30,7 +30,7 @@
 -(id)init{
     if (self = [super init]) {
         self.playBtn.hidden = NO;
-        self.backgroundColor = kNavTitleColor;
+        //self.backgroundColor = kNavTitleColor;
     }
     return self;
 }
