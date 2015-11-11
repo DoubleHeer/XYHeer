@@ -11,14 +11,6 @@
 @implementation SumAbilityModel
 
 
-+ (NSDictionary *)objectClassInArray{
-    return @{@"ability" : [SumAbilityDetailModel class]};
-}
-
-@end
-
-@implementation SumAbilityDetailModel
-
 +(NSDictionary *)replacedKeyFromPropertyName{
     return @{@"ID":@"id"};
 }

@@ -8,14 +8,9 @@
 
 #import "BaseModel.h"
 //召唤师技能列表
-@class SumAbilityDetailModel;
+
 @interface SumAbilityModel : BaseModel
 
-@property (nonatomic, strong) NSArray<SumAbilityDetailModel *> *ability;
-
-@end
-
-@interface SumAbilityDetailModel : NSObject
 
 @property (nonatomic, copy) NSString *strong;
 
