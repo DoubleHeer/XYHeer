@@ -1,28 +1,19 @@
 //
-//  SearchViewController.m
+//  SearchDetailViewController.m
 //  BaseProject
 //
 //  Created by tarena on 15/11/11.
 //  Copyright © 2015年 Tarena. All rights reserved.
 //
 
-#import "SearchViewController.h"
 #import "DetailViewController.h"
 
-@interface SearchViewController ()<UIWebViewDelegate>
-
+@interface DetailViewController ()<UIWebViewDelegate>
 @property (nonatomic,strong) UIWebView *webView;
 
 @end
 
-@implementation SearchViewController
--(instancetype)init{
-    if (self = [super init]) {
-        self.title = @"召唤师查询";
-    }
-    return self;
-}
-
+@implementation DetailViewController
 -(UIWebView *)webView{
     if (!_webView) {
         _webView = [UIWebView new];
@@ -31,36 +22,35 @@
         [_webView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.mas_equalTo(0);
         }];
-      
+        
     }
     return _webView;
 }
+-(id)initWithRequest:(NSURLRequest *)request{
+    if (self = [super init]) {
+        _request = request;
+        //推出了 不显示下方栏
+        self.hidesBottomBarWhenPushed = YES;
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [Factory addMenuItemToVC:self];
-    self.view.backgroundColor = [UIColor whiteColor];
-
-    NSURL *url = [NSURL URLWithString:@"http://lolbox.duowan.com/phone/playerSearchNew.php?lolboxAction=toInternalWebView"];
-    NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    [self.webView loadRequest:request];
+    [Factory addBackItemToVC:self];
+    [self.webView loadRequest:_request];
 }
 #pragma mark - UIWebViewDelegate
-//如果返回NO，则不会加载请求
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType{
-    //点击web中的任意一项，跳转到下一页
-    //如果当前webview加载的请求，不是当前页的
     if (navigationType != 5) {
-        DetailViewController *vc = [[DetailViewController alloc]initWithRequest:request];
-        [self.navigationController pushViewController:vc animated:YES];
+        DetailViewController *detailVC = [[DetailViewController alloc]initWithRequest:request];
+        [self.navigationController pushViewController:detailVC animated:YES];
         return NO;
     }
-    
     return YES;
 }
-
 - (void)webViewDidStartLoad:(UIWebView *)webView{
     [self showProgress];
-    
 }
 - (void)webViewDidFinishLoad:(UIWebView *)webView{
     [self hideProgress];

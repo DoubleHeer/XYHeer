@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SearchDetailViewController : UIViewController
+@interface DetailViewController : UIViewController
 
 -(id)initWithRequest:(NSURLRequest *)request;
 @property (nonatomic,strong) NSURLRequest *request;

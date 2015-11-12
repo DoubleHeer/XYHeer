@@ -10,6 +10,10 @@
 #import "ToolMenuViewModel.h"
 #import "XYImageView.h"
 #import "BestGroupViewController.h"
+#import "EquiqCategoryController.h"
+#import "SumAbilityViewController.h"
+#import "NovelViewController.h"
+#import "ServiceViewController.h"
 
 @interface BaiKeViewCell : UITableViewCell
 @property (nonatomic,strong) XYImageView *icon;
@@ -127,6 +131,18 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if ([[self.tmVM tagForRow:indexPath.row]isEqualToString:@"best_group"]) {
         BestGroupViewController *vc = [BestGroupViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if ([[self.tmVM tagForRow:indexPath.row]isEqualToString:@"item"]){
+        EquiqCategoryController *vc = [EquiqCategoryController new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if ([[self.tmVM tagForRow:indexPath.row]isEqualToString:@"sum_ability"]){
+        SumAbilityViewController *vc = [SumAbilityViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if ([[self.tmVM tagForRow:indexPath.row]isEqualToString:@"lol_story"]){
+        NovelViewController *vc = [NovelViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if ([[self.tmVM tagForRow:indexPath.row]isEqualToString:@"lol_keywords"]){
+        ServiceViewController *vc = [ServiceViewController new];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

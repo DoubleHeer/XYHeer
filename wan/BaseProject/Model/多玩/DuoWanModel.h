@@ -9,7 +9,7 @@
 #ifndef DuoWanModel_h
 #define DuoWanModel_h
 
-#import "FreeHerosModel.h"
+
 #import "AllHerosModel.h"
 #import "HeroSkinsModel.h"
 #import "HeroVideoModel.h"

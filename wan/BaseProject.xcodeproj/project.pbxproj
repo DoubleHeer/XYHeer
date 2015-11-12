@@ -64,11 +64,22 @@
 		3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BA1BD74AE90014E661 /* BaseViewModel.m */; };
 		3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BD1BD74AFE0014E661 /* BaseNetManager.m */; };
 		3886C0C11BD74B090014E661 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0C01BD74B090014E661 /* BaseModel.m */; };
+		850396E61BF42BE500BF3DD6 /* EquiqCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 850396E51BF42BE500BF3DD6 /* EquiqCategoryViewModel.m */; };
+		850396E91BF42D7C00BF3DD6 /* EquiqCategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850396E81BF42D7C00BF3DD6 /* EquiqCategoryController.m */; };
+		850396EC1BF4305A00BF3DD6 /* EquiqListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850396EB1BF4305A00BF3DD6 /* EquiqListViewController.m */; };
+		850396EF1BF4310600BF3DD6 /* EquiqListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 850396EE1BF4310600BF3DD6 /* EquiqListViewModel.m */; };
+		850396F21BF4473700BF3DD6 /* EquiqDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850396F11BF4473700BF3DD6 /* EquiqDetailController.m */; };
+		850396F51BF46B5C00BF3DD6 /* SumAbilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850396F41BF46B5C00BF3DD6 /* SumAbilityViewController.m */; };
+		850396F81BF46BFE00BF3DD6 /* EquiqAndSumAbilityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 850396F71BF46BFE00BF3DD6 /* EquiqAndSumAbilityCell.m */; };
+		850396FB1BF46CF900BF3DD6 /* SumAbilityViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 850396FA1BF46CF900BF3DD6 /* SumAbilityViewModel.m */; };
+		850396FE1BF472B600BF3DD6 /* SumAbilityDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850396FD1BF472B600BF3DD6 /* SumAbilityDetailController.m */; };
+		850397011BF4AE3D00BF3DD6 /* NovelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850397001BF4AE3D00BF3DD6 /* NovelViewController.m */; };
+		850397041BF4B41500BF3DD6 /* ServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850397031BF4B41500BF3DD6 /* ServiceViewController.m */; };
 		850E73751BF0753F005B5DF1 /* XiMaCategoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 850E73741BF0753F005B5DF1 /* XiMaCategoryViewModel.m */; };
 		851B6C3B1BF2D0CD0086A360 /* HeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C3A1BF2D0CD0086A360 /* HeroViewController.m */; };
 		851B6C3E1BF2D0FC0086A360 /* BaiKeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C3D1BF2D0FC0086A360 /* BaiKeViewController.m */; };
 		851B6C411BF2D1290086A360 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C401BF2D1290086A360 /* SearchViewController.m */; };
-		851B6C441BF2DBB20086A360 /* SearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C431BF2DBB20086A360 /* SearchDetailViewController.m */; };
+		851B6C441BF2DBB20086A360 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C431BF2DBB20086A360 /* DetailViewController.m */; };
 		851B6C471BF2E9910086A360 /* ToolMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C461BF2E9910086A360 /* ToolMenuViewModel.m */; };
 		851B6C4B1BF319310086A360 /* BestGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C4A1BF319310086A360 /* BestGroupViewController.m */; };
 		851B6C4E1BF31BA60086A360 /* BestGroupViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C4D1BF31BA60086A360 /* BestGroupViewModel.m */; };
@@ -214,6 +225,28 @@
 		3886C0C21BD74B430014E661 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseProject/Pods-BaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		850396E41BF42BE500BF3DD6 /* EquiqCategoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquiqCategoryViewModel.h; sourceTree = "<group>"; };
+		850396E51BF42BE500BF3DD6 /* EquiqCategoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquiqCategoryViewModel.m; sourceTree = "<group>"; };
+		850396E71BF42D7C00BF3DD6 /* EquiqCategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquiqCategoryController.h; sourceTree = "<group>"; };
+		850396E81BF42D7C00BF3DD6 /* EquiqCategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquiqCategoryController.m; sourceTree = "<group>"; };
+		850396EA1BF4305A00BF3DD6 /* EquiqListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquiqListViewController.h; sourceTree = "<group>"; };
+		850396EB1BF4305A00BF3DD6 /* EquiqListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquiqListViewController.m; sourceTree = "<group>"; };
+		850396ED1BF4310600BF3DD6 /* EquiqListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquiqListViewModel.h; sourceTree = "<group>"; };
+		850396EE1BF4310600BF3DD6 /* EquiqListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquiqListViewModel.m; sourceTree = "<group>"; };
+		850396F01BF4473700BF3DD6 /* EquiqDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquiqDetailController.h; sourceTree = "<group>"; };
+		850396F11BF4473700BF3DD6 /* EquiqDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquiqDetailController.m; sourceTree = "<group>"; };
+		850396F31BF46B5C00BF3DD6 /* SumAbilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumAbilityViewController.h; sourceTree = "<group>"; };
+		850396F41BF46B5C00BF3DD6 /* SumAbilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumAbilityViewController.m; sourceTree = "<group>"; };
+		850396F61BF46BFE00BF3DD6 /* EquiqAndSumAbilityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquiqAndSumAbilityCell.h; sourceTree = "<group>"; };
+		850396F71BF46BFE00BF3DD6 /* EquiqAndSumAbilityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquiqAndSumAbilityCell.m; sourceTree = "<group>"; };
+		850396F91BF46CF900BF3DD6 /* SumAbilityViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumAbilityViewModel.h; sourceTree = "<group>"; };
+		850396FA1BF46CF900BF3DD6 /* SumAbilityViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumAbilityViewModel.m; sourceTree = "<group>"; };
+		850396FC1BF472B600BF3DD6 /* SumAbilityDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumAbilityDetailController.h; sourceTree = "<group>"; };
+		850396FD1BF472B600BF3DD6 /* SumAbilityDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumAbilityDetailController.m; sourceTree = "<group>"; };
+		850396FF1BF4AE3D00BF3DD6 /* NovelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NovelViewController.h; sourceTree = "<group>"; };
+		850397001BF4AE3D00BF3DD6 /* NovelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NovelViewController.m; sourceTree = "<group>"; };
+		850397021BF4B41500BF3DD6 /* ServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceViewController.h; sourceTree = "<group>"; };
+		850397031BF4B41500BF3DD6 /* ServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceViewController.m; sourceTree = "<group>"; };
 		850E73731BF0753F005B5DF1 /* XiMaCategoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XiMaCategoryViewModel.h; path = "../兔玩游戏/XiMaCategoryViewModel.h"; sourceTree = "<group>"; };
 		850E73741BF0753F005B5DF1 /* XiMaCategoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XiMaCategoryViewModel.m; path = "../兔玩游戏/XiMaCategoryViewModel.m"; sourceTree = "<group>"; };
 		851B6C391BF2D0CD0086A360 /* HeroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroViewController.h; sourceTree = "<group>"; };
@@ -222,8 +255,8 @@
 		851B6C3D1BF2D0FC0086A360 /* BaiKeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiKeViewController.m; sourceTree = "<group>"; };
 		851B6C3F1BF2D1290086A360 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		851B6C401BF2D1290086A360 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
-		851B6C421BF2DBB20086A360 /* SearchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDetailViewController.h; sourceTree = "<group>"; };
-		851B6C431BF2DBB20086A360 /* SearchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDetailViewController.m; sourceTree = "<group>"; };
+		851B6C421BF2DBB20086A360 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		851B6C431BF2DBB20086A360 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		851B6C451BF2E9910086A360 /* ToolMenuViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolMenuViewModel.h; sourceTree = "<group>"; };
 		851B6C461BF2E9910086A360 /* ToolMenuViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolMenuViewModel.m; sourceTree = "<group>"; };
 		851B6C491BF319310086A360 /* BestGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupViewController.h; sourceTree = "<group>"; };
@@ -639,6 +672,8 @@
 				854D24E11BF1E23300615A47 /* PlayView.m */,
 				851B6C521BF335780086A360 /* BestGroupCell.h */,
 				851B6C531BF335780086A360 /* BestGroupCell.m */,
+				850396F61BF46BFE00BF3DD6 /* EquiqAndSumAbilityCell.h */,
+				850396F71BF46BFE00BF3DD6 /* EquiqAndSumAbilityCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -676,6 +711,20 @@
 				851B6C4A1BF319310086A360 /* BestGroupViewController.m */,
 				851B6C4F1BF31C420086A360 /* BestGroupDetailViewController.h */,
 				851B6C501BF31C420086A360 /* BestGroupDetailViewController.m */,
+				850396E71BF42D7C00BF3DD6 /* EquiqCategoryController.h */,
+				850396E81BF42D7C00BF3DD6 /* EquiqCategoryController.m */,
+				850396EA1BF4305A00BF3DD6 /* EquiqListViewController.h */,
+				850396EB1BF4305A00BF3DD6 /* EquiqListViewController.m */,
+				850396F01BF4473700BF3DD6 /* EquiqDetailController.h */,
+				850396F11BF4473700BF3DD6 /* EquiqDetailController.m */,
+				850396F31BF46B5C00BF3DD6 /* SumAbilityViewController.h */,
+				850396F41BF46B5C00BF3DD6 /* SumAbilityViewController.m */,
+				850396FC1BF472B600BF3DD6 /* SumAbilityDetailController.h */,
+				850396FD1BF472B600BF3DD6 /* SumAbilityDetailController.m */,
+				850396FF1BF4AE3D00BF3DD6 /* NovelViewController.h */,
+				850397001BF4AE3D00BF3DD6 /* NovelViewController.m */,
+				850397021BF4B41500BF3DD6 /* ServiceViewController.h */,
+				850397031BF4B41500BF3DD6 /* ServiceViewController.m */,
 			);
 			path = "百科详情";
 			sourceTree = "<group>";
@@ -758,8 +807,8 @@
 				851B6C3D1BF2D0FC0086A360 /* BaiKeViewController.m */,
 				851B6C3F1BF2D1290086A360 /* SearchViewController.h */,
 				851B6C401BF2D1290086A360 /* SearchViewController.m */,
-				851B6C421BF2DBB20086A360 /* SearchDetailViewController.h */,
-				851B6C431BF2DBB20086A360 /* SearchDetailViewController.m */,
+				851B6C421BF2DBB20086A360 /* DetailViewController.h */,
+				851B6C431BF2DBB20086A360 /* DetailViewController.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -806,6 +855,12 @@
 				851B6C461BF2E9910086A360 /* ToolMenuViewModel.m */,
 				851B6C4C1BF31BA60086A360 /* BestGroupViewModel.h */,
 				851B6C4D1BF31BA60086A360 /* BestGroupViewModel.m */,
+				850396E41BF42BE500BF3DD6 /* EquiqCategoryViewModel.h */,
+				850396E51BF42BE500BF3DD6 /* EquiqCategoryViewModel.m */,
+				850396ED1BF4310600BF3DD6 /* EquiqListViewModel.h */,
+				850396EE1BF4310600BF3DD6 /* EquiqListViewModel.m */,
+				850396F91BF46CF900BF3DD6 /* SumAbilityViewModel.h */,
+				850396FA1BF46CF900BF3DD6 /* SumAbilityViewModel.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -1015,9 +1070,12 @@
 			files = (
 				853D3AB01BEC44040015F5C3 /* TuWanImageCell.m in Sources */,
 				855C47271BF0317100E24FAB /* TuWanPicViewController.m in Sources */,
+				850396E61BF42BE500BF3DD6 /* EquiqCategoryViewModel.m in Sources */,
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
 				85E99D4D1BEB46DE006B502F /* Factory.m in Sources */,
 				851B6C4E1BF31BA60086A360 /* BestGroupViewModel.m in Sources */,
+				850396F81BF46BFE00BF3DD6 /* EquiqAndSumAbilityCell.m in Sources */,
+				850396F21BF4473700BF3DD6 /* EquiqDetailController.m in Sources */,
 				8542ED381BEB0846006067D7 /* WeekDataModel.m in Sources */,
 				853D3AAA1BEC394B0015F5C3 /* TuWanListViewController.m in Sources */,
 				8542ED581BEB09D9006067D7 /* RankListViewController.m in Sources */,
@@ -1030,20 +1088,25 @@
 				8542ED271BEB0846006067D7 /* AllHerosModel.m in Sources */,
 				854D24DD1BF1CE6600615A47 /* MusicListViewController.m in Sources */,
 				8542ED2B1BEB0846006067D7 /* EquiqListModel.m in Sources */,
+				850397041BF4B41500BF3DD6 /* ServiceViewController.m in Sources */,
 				8542ED341BEB0846006067D7 /* HeroSkinsModel.m in Sources */,
 				3885C8FA1BE8E96A009441EA /* PSCollectionViewCell.m in Sources */,
 				8542ED521BEB097B006067D7 /* TuWanViewController.m in Sources */,
 				854D24D71BF1975A00615A47 /* MusicDetailCell.m in Sources */,
+				850396EC1BF4305A00BF3DD6 /* EquiqListViewController.m in Sources */,
 				3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */,
 				8542ED391BEB0846006067D7 /* TuWanBaseModel.m in Sources */,
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
+				850396F51BF46B5C00BF3DD6 /* SumAbilityViewController.m in Sources */,
+				850396EF1BF4310600BF3DD6 /* EquiqListViewModel.m in Sources */,
 				855C47241BF02DD600E24FAB /* TuWanVideoModel.m in Sources */,
 				855C47231BF02DD600E24FAB /* TuWanPicModel.m in Sources */,
 				854D24E21BF1E23300615A47 /* PlayView.m in Sources */,
 				853D3AB61BEC98720015F5C3 /* TuWanHtmlViewController.m in Sources */,
-				851B6C441BF2DBB20086A360 /* SearchDetailViewController.m in Sources */,
+				851B6C441BF2DBB20086A360 /* DetailViewController.m in Sources */,
 				8542ED361BEB0846006067D7 /* RunesModel.m in Sources */,
 				855C471E1BF02CA800E24FAB /* TuWanPicViewModel.m in Sources */,
+				850396FE1BF472B600BF3DD6 /* SumAbilityDetailController.m in Sources */,
 				851B6C3B1BF2D0CD0086A360 /* HeroViewController.m in Sources */,
 				853D3AAD1BEC39BE0015F5C3 /* TuWanListCell.m in Sources */,
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
@@ -1051,7 +1114,9 @@
 				851B6C4B1BF319310086A360 /* BestGroupViewController.m in Sources */,
 				853D3AB31BEC7F970015F5C3 /* XYImageView.m in Sources */,
 				3885C8981BE8E88D009441EA /* iCarousel.m in Sources */,
+				850396FB1BF46CF900BF3DD6 /* SumAbilityViewModel.m in Sources */,
 				8542ED351BEB0846006067D7 /* HeroVideoModel.m in Sources */,
+				850396E91BF42D7C00BF3DD6 /* EquiqCategoryController.m in Sources */,
 				8542ED3B1BEB0846006067D7 /* MusicModel.m in Sources */,
 				8542ED2E1BEB0846006067D7 /* GiftModel.m in Sources */,
 				8542ED2D1BEB0846006067D7 /* GameSubjectListModel.m in Sources */,
@@ -1075,6 +1140,7 @@
 				3886C0981BD748830014E661 /* main.m in Sources */,
 				851B6C541BF335780086A360 /* BestGroupCell.m in Sources */,
 				8542ED3A1BEB0846006067D7 /* MusicCategoryModel.m in Sources */,
+				850397011BF4AE3D00BF3DD6 /* NovelViewController.m in Sources */,
 				8542ED421BEB0857006067D7 /* DuoWanNetManager.m in Sources */,
 				854D24DA1BF1C37200615A47 /* XiMaAlbumViewModel.m in Sources */,
 				8542ED5B1BEB0A0C006067D7 /* LeftViewController.m in Sources */,
