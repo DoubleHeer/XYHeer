@@ -11,9 +11,10 @@
 
 @interface PlayView : UIView
 
-+(PlayView *)sharedInstance;
-@property (nonatomic,strong) AVPlayer *player;
-@property (nonatomic,strong) UIButton *playBtn;
++ (PlayView *)sharedInstance;
 
--(void)playMusicWithURL:(NSURL *)musicURL;
+- (void)playWithURL:(NSURL *)musicURL;
+
+@property(nonatomic, strong) AVPlayer *player;
+@property(nonatomic, strong) UIButton *playBtn;
 @end

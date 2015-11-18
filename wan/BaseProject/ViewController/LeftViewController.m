@@ -8,7 +8,7 @@
 
 #import "LeftViewController.h"
 #import <NSString+Icons.h>
-#import "RankListViewController.h"
+#import "MultimediaViewController.h"
 #import "TuWanViewController.h"
 #import "DuoWabTabBarController.h"
 
@@ -20,7 +20,7 @@
 @implementation LeftViewController
 
 -(NSArray *)itemNames{
-    return @[@"游戏资讯",@"喜马拉雅",@"英雄联盟",@"个人设置"];
+    return @[@"游戏资讯",@"视听享受",@"英雄联盟",@"搞笑段子",@"个人设置"];
 }
 
 -(UITableView *)tableView{
@@ -74,7 +74,7 @@
             [self.sideMenuViewController hideMenuViewController];
             break;
          case 1:
-            [self.sideMenuViewController setContentViewController:[RankListViewController defaultNavi] animated:YES];
+            [self.sideMenuViewController setContentViewController:[MultimediaViewController standardMVInstance] animated:YES];
             [self.sideMenuViewController hideMenuViewController];
         case 2:
             [self.sideMenuViewController setContentViewController:[DuoWabTabBarController standardInstance] animated:YES];

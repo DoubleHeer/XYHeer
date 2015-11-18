@@ -100,10 +100,10 @@
     return _playCountLb;
 }
 
--(UILabel *)favourCountLb{
-    if (!_favourCountLb) {
-        _favourCountLb = [UILabel new];
-        [self.contentView addSubview:_favourCountLb];
+-(UILabel *)favorCountLb{
+    if (!_favorCountLb) {
+        _favorCountLb = [UILabel new];
+        [self.contentView addSubview:_favorCountLb];
         UIImageView *imageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"sound_likes"]];
         [self.contentView addSubview:imageView];
         [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -111,14 +111,14 @@
             make.left.mas_equalTo(self.playCountLb.mas_right).mas_equalTo(7);
             make.size.mas_equalTo(CGSizeMake(20,20));
         }];
-        _favourCountLb.textColor = [UIColor lightGrayColor];
-        _favourCountLb.font = [UIFont systemFontOfSize:12];
-        [_favourCountLb mas_makeConstraints:^(MASConstraintMaker *make) {
+        _favorCountLb.textColor = [UIColor lightGrayColor];
+        _favorCountLb.font = [UIFont systemFontOfSize:12];
+        [_favorCountLb mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.mas_equalTo(imageView.mas_right).mas_equalTo(3);
             make.centerY.mas_equalTo(imageView);
         }];
     }
-    return _favourCountLb;
+    return _favorCountLb;
 }
 -(UILabel *)commentCountLb{
     if (!_commentCountLb) {
@@ -127,8 +127,8 @@
         UIImageView *imageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"sound_comments"]];
         [self.contentView addSubview:imageView];
         [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.centerY.mas_equalTo(self.favourCountLb);
-            make.left.mas_equalTo(self.favourCountLb.mas_right).mas_equalTo(7);
+            make.centerY.mas_equalTo(self.favorCountLb);
+            make.left.mas_equalTo(self.favorCountLb.mas_right).mas_equalTo(7);
             make.size.mas_equalTo(CGSizeMake(18,18));
         }];
         _commentCountLb.textColor = [UIColor lightGrayColor];

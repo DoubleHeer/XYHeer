@@ -10,34 +10,25 @@
 
 @implementation PlayView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
-
-+(PlayView *)sharedInstance{
-    static PlayView *playView = nil;
++ (PlayView *)sharedInstance{
+    static PlayView *p = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        playView = [PlayView new];
+        p = [PlayView new];
     });
-    return playView;
+    return p;
 }
-
--(id)init{
+- (id)init{
     if (self = [super init]) {
         self.playBtn.hidden = NO;
-        //self.backgroundColor = kNavTitleColor;
+        //        self.backgroundColor = [UIColor redColor];
     }
     return self;
 }
 
--(UIButton *)playBtn{
+- (UIButton *)playBtn{
     if (!_playBtn) {
-        _playBtn = [UIButton buttonWithType:0];
+        _playBtn =[UIButton buttonWithType:0];
         [_playBtn setBackgroundImage:[UIImage imageNamed:@"toolbar_play_n_p"] forState:UIControlStateNormal];
         [_playBtn setBackgroundImage:[UIImage imageNamed:@"toolbar_pause_n_p"] forState:UIControlStateSelected];
         [self addSubview:_playBtn];
@@ -57,15 +48,22 @@
     return _playBtn;
 }
 
--(void)playMusicWithURL:(NSURL *)musicURL{
-    //支持后台播放
-    [[AVAudioSession sharedInstance]setCategory:AVAudioSessionCategoryPlayback error:nil];
+- (void)playWithURL:(NSURL *)musicURL{
+    //设置支持的类别
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
     //激活
     [[AVAudioSession sharedInstance] setActive:YES error:nil];
-    //并在info.plist中添加： Required background modes
-    _player = [AVPlayer playerWithURL:musicURL];
+    _player =[AVPlayer playerWithURL:musicURL];
     [_player play];
     self.playBtn.selected = YES;
-    
 }
+
+/*
+ // Only override drawRect: if you perform custom drawing.
+ // An empty implementation adversely affects performance during animation.
+ - (void)drawRect:(CGRect)rect {
+ // Drawing code
+ }
+ */
+
 @end

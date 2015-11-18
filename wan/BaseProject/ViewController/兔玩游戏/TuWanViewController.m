@@ -65,7 +65,7 @@
 -(void)viewDidLoad{
     [super viewDidLoad];
     self.view.backgroundColor = kNavTitleColor;
-    self.title = @"一号兔玩";
+    self.title = @"游戏资讯";
     
     //添加按钮
     [Factory addMenuItemToVC:self];

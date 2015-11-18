@@ -48,10 +48,17 @@
     return navi;
 }
 
+-(instancetype)init{
+    if (self = [super init]) {
+          self.title = @"音乐";
+    }
+    return self;
+}
+
 -(void)viewDidLoad{
     [super viewDidLoad];
     [Factory addMenuItemToVC:self];
-    self.title = @"音乐TOP50";
+  
     //刷新
     self.tableView.header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
         [self.ximaVM refreshDataCompletionHandle:^(NSError *error) {

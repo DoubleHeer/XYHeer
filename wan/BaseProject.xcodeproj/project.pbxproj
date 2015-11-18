@@ -85,6 +85,12 @@
 		851B6C4E1BF31BA60086A360 /* BestGroupViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C4D1BF31BA60086A360 /* BestGroupViewModel.m */; };
 		851B6C511BF31C420086A360 /* BestGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C501BF31C420086A360 /* BestGroupDetailViewController.m */; };
 		851B6C541BF335780086A360 /* BestGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B6C531BF335780086A360 /* BestGroupCell.m */; };
+		8532AB631BF5FFDC004DC31E /* MultimediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8532AB621BF5FFDC004DC31E /* MultimediaViewController.m */; };
+		8532AB661BF60238004DC31E /* VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8532AB651BF60238004DC31E /* VideoModel.m */; };
+		8532AB691BF60262004DC31E /* VideoNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8532AB681BF60262004DC31E /* VideoNetManager.m */; };
+		8532AB6C1BF602B7004DC31E /* VideoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8532AB6B1BF602B7004DC31E /* VideoViewModel.m */; };
+		8532AB6F1BF602DE004DC31E /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8532AB6E1BF602DE004DC31E /* VideoViewController.m */; };
+		8532AB721BF6037F004DC31E /* VideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8532AB711BF6037F004DC31E /* VideoCell.m */; };
 		853D3AAA1BEC394B0015F5C3 /* TuWanListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853D3AA91BEC394B0015F5C3 /* TuWanListViewController.m */; };
 		853D3AAD1BEC39BE0015F5C3 /* TuWanListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 853D3AAC1BEC39BE0015F5C3 /* TuWanListCell.m */; };
 		853D3AB01BEC44040015F5C3 /* TuWanImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 853D3AAF1BEC44040015F5C3 /* TuWanImageCell.m */; };
@@ -267,6 +273,18 @@
 		851B6C501BF31C420086A360 /* BestGroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupDetailViewController.m; sourceTree = "<group>"; };
 		851B6C521BF335780086A360 /* BestGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BestGroupCell.h; sourceTree = "<group>"; };
 		851B6C531BF335780086A360 /* BestGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BestGroupCell.m; sourceTree = "<group>"; };
+		8532AB611BF5FFDC004DC31E /* MultimediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultimediaViewController.h; sourceTree = "<group>"; };
+		8532AB621BF5FFDC004DC31E /* MultimediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultimediaViewController.m; sourceTree = "<group>"; };
+		8532AB641BF60238004DC31E /* VideoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoModel.h; sourceTree = "<group>"; };
+		8532AB651BF60238004DC31E /* VideoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoModel.m; sourceTree = "<group>"; };
+		8532AB671BF60262004DC31E /* VideoNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoNetManager.h; sourceTree = "<group>"; };
+		8532AB681BF60262004DC31E /* VideoNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoNetManager.m; sourceTree = "<group>"; };
+		8532AB6A1BF602B7004DC31E /* VideoViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewModel.h; sourceTree = "<group>"; };
+		8532AB6B1BF602B7004DC31E /* VideoViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewModel.m; sourceTree = "<group>"; };
+		8532AB6D1BF602DE004DC31E /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		8532AB6E1BF602DE004DC31E /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		8532AB701BF6037F004DC31E /* VideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCell.h; sourceTree = "<group>"; };
+		8532AB711BF6037F004DC31E /* VideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCell.m; sourceTree = "<group>"; };
 		853D3AA81BEC394B0015F5C3 /* TuWanListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TuWanListViewController.h; path = "../../ViewModel/兔玩游戏/TuWanListViewController.h"; sourceTree = "<group>"; };
 		853D3AA91BEC394B0015F5C3 /* TuWanListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TuWanListViewController.m; path = "../../ViewModel/兔玩游戏/TuWanListViewController.m"; sourceTree = "<group>"; };
 		853D3AAB1BEC39BE0015F5C3 /* TuWanListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanListCell.h; sourceTree = "<group>"; };
@@ -603,7 +621,7 @@
 				3886C0C01BD74B090014E661 /* BaseModel.m */,
 				8542ECF91BEB0846006067D7 /* 多玩 */,
 				8542ED1F1BEB0846006067D7 /* 兔玩 */,
-				8542ED221BEB0846006067D7 /* 喜马拉雅 */,
+				8542ED221BEB0846006067D7 /* 试听享受 */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -619,6 +637,8 @@
 				8542ED411BEB0857006067D7 /* XiMaNetManager.m */,
 				3886C0BC1BD74AFE0014E661 /* BaseNetManager.h */,
 				3886C0BD1BD74AFE0014E661 /* BaseNetManager.m */,
+				8532AB671BF60262004DC31E /* VideoNetManager.h */,
+				8532AB681BF60262004DC31E /* VideoNetManager.m */,
 			);
 			path = NetManager;
 			sourceTree = "<group>";
@@ -658,6 +678,8 @@
 		3886C0B51BD74A4A0014E661 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8532AB701BF6037F004DC31E /* VideoCell.h */,
+				8532AB711BF6037F004DC31E /* VideoCell.m */,
 				853D3AAB1BEC39BE0015F5C3 /* TuWanListCell.h */,
 				853D3AAC1BEC39BE0015F5C3 /* TuWanListCell.m */,
 				853D3AAE1BEC44040015F5C3 /* TuWanImageCell.h */,
@@ -682,9 +704,9 @@
 			isa = PBXGroup;
 			children = (
 				8542ED451BEB086F006067D7 /* 多玩盒子 */,
-				8542ED461BEB086F006067D7 /* 兔玩游戏 */,
+				8542ED461BEB086F006067D7 /* 游戏资讯 */,
 				8542ED471BEB086F006067D7 /* 我的信息 */,
-				8542ED481BEB086F006067D7 /* 喜马拉雅 */,
+				8542ED481BEB086F006067D7 /* 视听享受 */,
 				8542ED591BEB0A0C006067D7 /* LeftViewController.h */,
 				8542ED5A1BEB0A0C006067D7 /* LeftViewController.m */,
 			);
@@ -695,9 +717,9 @@
 			isa = PBXGroup;
 			children = (
 				8542ED491BEB0879006067D7 /* 多玩盒子 */,
-				8542ED4A1BEB0879006067D7 /* 兔玩游戏 */,
+				8542ED4A1BEB0879006067D7 /* 游戏资讯 */,
 				8542ED4B1BEB0879006067D7 /* 我的信息 */,
-				8542ED4C1BEB0879006067D7 /* 喜马拉雅 */,
+				8542ED4C1BEB0879006067D7 /* 视听享受 */,
 				3886C0B91BD74AE90014E661 /* BaseViewModel.h */,
 				3886C0BA1BD74AE90014E661 /* BaseViewModel.m */,
 			);
@@ -784,14 +806,17 @@
 			path = "兔玩";
 			sourceTree = "<group>";
 		};
-		8542ED221BEB0846006067D7 /* 喜马拉雅 */ = {
+		8542ED221BEB0846006067D7 /* 试听享受 */ = {
 			isa = PBXGroup;
 			children = (
 				8542ED231BEB0846006067D7 /* MusicCategoryModel.h */,
 				8542ED241BEB0846006067D7 /* MusicCategoryModel.m */,
 				8542ED251BEB0846006067D7 /* MusicModel.h */,
 				8542ED261BEB0846006067D7 /* MusicModel.m */,
+				8532AB641BF60238004DC31E /* VideoModel.h */,
+				8532AB651BF60238004DC31E /* VideoModel.m */,
 			);
+			name = "试听享受";
 			path = "喜马拉雅";
 			sourceTree = "<group>";
 		};
@@ -813,7 +838,7 @@
 			path = "多玩盒子";
 			sourceTree = "<group>";
 		};
-		8542ED461BEB086F006067D7 /* 兔玩游戏 */ = {
+		8542ED461BEB086F006067D7 /* 游戏资讯 */ = {
 			isa = PBXGroup;
 			children = (
 				8542ED501BEB097B006067D7 /* TuWanViewController.h */,
@@ -825,6 +850,7 @@
 				855C47251BF0317100E24FAB /* TuWanPicViewController.h */,
 				855C47261BF0317100E24FAB /* TuWanPicViewController.m */,
 			);
+			name = "游戏资讯";
 			path = "兔玩游戏";
 			sourceTree = "<group>";
 		};
@@ -837,14 +863,19 @@
 			path = "我的信息";
 			sourceTree = "<group>";
 		};
-		8542ED481BEB086F006067D7 /* 喜马拉雅 */ = {
+		8542ED481BEB086F006067D7 /* 视听享受 */ = {
 			isa = PBXGroup;
 			children = (
 				8542ED561BEB09D9006067D7 /* RankListViewController.h */,
 				8542ED571BEB09D9006067D7 /* RankListViewController.m */,
 				854D24DB1BF1CE6600615A47 /* MusicListViewController.h */,
 				854D24DC1BF1CE6600615A47 /* MusicListViewController.m */,
+				8532AB611BF5FFDC004DC31E /* MultimediaViewController.h */,
+				8532AB621BF5FFDC004DC31E /* MultimediaViewController.m */,
+				8532AB6D1BF602DE004DC31E /* VideoViewController.h */,
+				8532AB6E1BF602DE004DC31E /* VideoViewController.m */,
 			);
+			name = "视听享受";
 			path = "喜马拉雅";
 			sourceTree = "<group>";
 		};
@@ -865,7 +896,7 @@
 			path = "多玩盒子";
 			sourceTree = "<group>";
 		};
-		8542ED4A1BEB0879006067D7 /* 兔玩游戏 */ = {
+		8542ED4A1BEB0879006067D7 /* 游戏资讯 */ = {
 			isa = PBXGroup;
 			children = (
 				85E99D4E1BEB49E2006B502F /* TuWanViewModel.h */,
@@ -873,6 +904,7 @@
 				855C471C1BF02CA800E24FAB /* TuWanPicViewModel.h */,
 				855C471D1BF02CA800E24FAB /* TuWanPicViewModel.m */,
 			);
+			name = "游戏资讯";
 			path = "兔玩游戏";
 			sourceTree = "<group>";
 		};
@@ -883,14 +915,17 @@
 			path = "我的信息";
 			sourceTree = "<group>";
 		};
-		8542ED4C1BEB0879006067D7 /* 喜马拉雅 */ = {
+		8542ED4C1BEB0879006067D7 /* 视听享受 */ = {
 			isa = PBXGroup;
 			children = (
 				850E73731BF0753F005B5DF1 /* XiMaCategoryViewModel.h */,
 				850E73741BF0753F005B5DF1 /* XiMaCategoryViewModel.m */,
 				854D24D81BF1C37200615A47 /* XiMaAlbumViewModel.h */,
 				854D24D91BF1C37200615A47 /* XiMaAlbumViewModel.m */,
+				8532AB6A1BF602B7004DC31E /* VideoViewModel.h */,
+				8532AB6B1BF602B7004DC31E /* VideoViewModel.m */,
 			);
+			name = "视听享受";
 			path = "喜马拉雅";
 			sourceTree = "<group>";
 		};
@@ -1069,15 +1104,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				853D3AB01BEC44040015F5C3 /* TuWanImageCell.m in Sources */,
+				8532AB721BF6037F004DC31E /* VideoCell.m in Sources */,
 				855C47271BF0317100E24FAB /* TuWanPicViewController.m in Sources */,
 				850396E61BF42BE500BF3DD6 /* EquiqCategoryViewModel.m in Sources */,
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
 				85E99D4D1BEB46DE006B502F /* Factory.m in Sources */,
+				8532AB6F1BF602DE004DC31E /* VideoViewController.m in Sources */,
 				851B6C4E1BF31BA60086A360 /* BestGroupViewModel.m in Sources */,
 				850396F81BF46BFE00BF3DD6 /* EquiqAndSumAbilityCell.m in Sources */,
 				850396F21BF4473700BF3DD6 /* EquiqDetailController.m in Sources */,
 				8542ED381BEB0846006067D7 /* WeekDataModel.m in Sources */,
 				853D3AAA1BEC394B0015F5C3 /* TuWanListViewController.m in Sources */,
+				8532AB631BF5FFDC004DC31E /* MultimediaViewController.m in Sources */,
 				8542ED581BEB09D9006067D7 /* RankListViewController.m in Sources */,
 				8542ED551BEB09A8006067D7 /* MyInfoViewController.m in Sources */,
 				8542ED291BEB0846006067D7 /* EquiqCategoryModel.m in Sources */,
@@ -1089,6 +1127,7 @@
 				854D24DD1BF1CE6600615A47 /* MusicListViewController.m in Sources */,
 				8542ED2B1BEB0846006067D7 /* EquiqListModel.m in Sources */,
 				850397041BF4B41500BF3DD6 /* ServiceViewController.m in Sources */,
+				8532AB6C1BF602B7004DC31E /* VideoViewModel.m in Sources */,
 				8542ED341BEB0846006067D7 /* HeroSkinsModel.m in Sources */,
 				3885C8FA1BE8E96A009441EA /* PSCollectionViewCell.m in Sources */,
 				8542ED521BEB097B006067D7 /* TuWanViewController.m in Sources */,
@@ -1098,6 +1137,7 @@
 				8542ED391BEB0846006067D7 /* TuWanBaseModel.m in Sources */,
 				3885C8F91BE8E96A009441EA /* PSCollectionView.m in Sources */,
 				850396F51BF46B5C00BF3DD6 /* SumAbilityViewController.m in Sources */,
+				8532AB661BF60238004DC31E /* VideoModel.m in Sources */,
 				850396EF1BF4310600BF3DD6 /* EquiqListViewModel.m in Sources */,
 				855C47241BF02DD600E24FAB /* TuWanVideoModel.m in Sources */,
 				855C47231BF02DD600E24FAB /* TuWanPicModel.m in Sources */,
@@ -1123,6 +1163,7 @@
 				8542ED281BEB0846006067D7 /* BestRanksModel.m in Sources */,
 				3804CE511BD758F10046C8C8 /* AppDelegate+Category.m in Sources */,
 				3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */,
+				8532AB691BF60262004DC31E /* VideoNetManager.m in Sources */,
 				851B6C411BF2D1290086A360 /* SearchViewController.m in Sources */,
 				8542ED2F1BEB0846006067D7 /* HeroChangedModel.m in Sources */,
 				851B6C471BF2E9910086A360 /* ToolMenuViewModel.m in Sources */,
