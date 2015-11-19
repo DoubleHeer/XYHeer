@@ -20,7 +20,7 @@
 @implementation LeftViewController
 
 -(NSArray *)itemNames{
-    return @[@"游戏资讯",@"视听享受",@"英雄联盟",@"搞笑段子",@"个人设置"];
+    return @[@"游戏资讯",@"视听享受",@"英雄联盟",@"搞笑段子"];
 }
 
 -(UITableView *)tableView{

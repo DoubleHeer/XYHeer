@@ -103,7 +103,7 @@
     cell.titleLb.text = [self.ximaVM titleForRow:indexPath.row];
     cell.descLb.text = [self.ximaVM descForRow:indexPath.row];
     cell.numberLb.text = [self.ximaVM numberForRow:indexPath.row];
-    [cell.iconIV.imageView setImageWithURL:[self.ximaVM iconURLForRow:indexPath.row] placeholderImage:[UIImage imageNamed:@"a4813743"]];
+    [cell.iconIV.imageView setImageWithURL:[self.ximaVM iconURLForRow:indexPath.row] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_7"]];
     cell.orderLb.text = @(indexPath.row + 1).stringValue;
     
     

@@ -118,7 +118,7 @@
         }];
     }
     UIImageView *imageView = (UIImageView *)[view viewWithTag:100];
-    [imageView setImageWithURL:[self.tuwanVM iconURLForRowInIndexPic:index] placeholderImage:[UIImage imageNamed:@"10979716_0800"]];
+    [imageView setImageWithURL:[self.tuwanVM iconURLForRowInIndexPic:index] placeholderImage:[UIImage imageNamed:@"cell_bg_noData_7"]];
     
     return view;
 }

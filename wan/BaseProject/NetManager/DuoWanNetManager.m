@@ -34,18 +34,13 @@
 @implementation DuoWanNetManager
 //免费英雄http://lolbox.duowan.com/phone/apiHeroes.php?type=free&v=140&OSType=iOS9.1
 //全部英雄http://lolbox.duowan.com/phone/apiHeroes.php?type=all&v=140&OSType=iOS9.1
-+(id)getFreeHeroListWithCompleteHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle{
-    NSString *path = [NSString stringWithFormat:@"%@?type=free&v=140&OSType=%@",kHeroPath,kOSType];
++(id)getHeroListWithType:(NSString *)type CompleteHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle{
+    NSString *path = [NSString stringWithFormat:@"%@?type=%@&v=140&OSType=%@",kHeroPath,type,kOSType];
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
         completeHandle([AllHerosModel objectArrayWithKeyValuesArray:responseObj],error);
     }];
 }
-+(id)getAllHeroListWithCompleteHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle{
-    NSString *path = [NSString stringWithFormat:@"%@?type=all&v=140&OSType=%@",kHeroPath,kOSType];
-    return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
-        completeHandle([AllHerosModel objectArrayWithKeyValuesArray:responseObj],error);
-    }];
-}
+
 //英雄视频http://box.dwstatic.com/apiVideoesNormalDuowan.php?action=l&p=1&v=140&OSType=iOS9.1&tag=Braum&src=letv
 +(id)getHeroVideoWithTag:(NSString *)tag completeHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle{
     NSString *path = [NSString stringWithFormat:@"%@?action=l&p=1&v=140&OSType=i%@&tag=%@&src=letv",kHeroVideoPath,kOSType,tag];

@@ -12,9 +12,9 @@
 @interface DuoWanNetManager : BaseNetManager
 //免费英雄
 //全部英雄
-+(id)getFreeHeroListWithCompleteHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle;
++(id)getHeroListWithType:(NSString *)type CompleteHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle;
 
-+(id)getAllHeroListWithCompleteHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle;
+
 //英雄视频
 +(id)getHeroVideoWithTag:(NSString *)tag completeHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle;
 

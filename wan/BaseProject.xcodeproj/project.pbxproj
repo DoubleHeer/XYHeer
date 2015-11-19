@@ -68,7 +68,6 @@
 		850396E91BF42D7C00BF3DD6 /* EquiqCategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850396E81BF42D7C00BF3DD6 /* EquiqCategoryController.m */; };
 		850396EC1BF4305A00BF3DD6 /* EquiqListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850396EB1BF4305A00BF3DD6 /* EquiqListViewController.m */; };
 		850396EF1BF4310600BF3DD6 /* EquiqListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 850396EE1BF4310600BF3DD6 /* EquiqListViewModel.m */; };
-		850396F21BF4473700BF3DD6 /* EquiqDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850396F11BF4473700BF3DD6 /* EquiqDetailController.m */; };
 		850396F51BF46B5C00BF3DD6 /* SumAbilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 850396F41BF46B5C00BF3DD6 /* SumAbilityViewController.m */; };
 		850396F81BF46BFE00BF3DD6 /* EquiqAndSumAbilityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 850396F71BF46BFE00BF3DD6 /* EquiqAndSumAbilityCell.m */; };
 		850396FB1BF46CF900BF3DD6 /* SumAbilityViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 850396FA1BF46CF900BF3DD6 /* SumAbilityViewModel.m */; };
@@ -134,6 +133,8 @@
 		855C47241BF02DD600E24FAB /* TuWanVideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C47221BF02DD600E24FAB /* TuWanVideoModel.m */; };
 		855C47271BF0317100E24FAB /* TuWanPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C47261BF0317100E24FAB /* TuWanPicViewController.m */; };
 		855C472A1BF04C2B00E24FAB /* XiMaCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 855C47291BF04C2B00E24FAB /* XiMaCategoryCell.m */; };
+		85BADAC21BFD7FB200037927 /* HeroViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BADAC11BFD7FB200037927 /* HeroViewModel.m */; };
+		85BADAC51BFD84BD00037927 /* HeroListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BADAC41BFD84BD00037927 /* HeroListViewCell.m */; };
 		85E99D4D1BEB46DE006B502F /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E99D4C1BEB46DE006B502F /* Factory.m */; };
 		85E99D501BEB49E2006B502F /* TuWanViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E99D4F1BEB49E2006B502F /* TuWanViewModel.m */; };
 /* End PBXBuildFile section */
@@ -239,8 +240,6 @@
 		850396EB1BF4305A00BF3DD6 /* EquiqListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquiqListViewController.m; sourceTree = "<group>"; };
 		850396ED1BF4310600BF3DD6 /* EquiqListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquiqListViewModel.h; sourceTree = "<group>"; };
 		850396EE1BF4310600BF3DD6 /* EquiqListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquiqListViewModel.m; sourceTree = "<group>"; };
-		850396F01BF4473700BF3DD6 /* EquiqDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquiqDetailController.h; sourceTree = "<group>"; };
-		850396F11BF4473700BF3DD6 /* EquiqDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquiqDetailController.m; sourceTree = "<group>"; };
 		850396F31BF46B5C00BF3DD6 /* SumAbilityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SumAbilityViewController.h; sourceTree = "<group>"; };
 		850396F41BF46B5C00BF3DD6 /* SumAbilityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SumAbilityViewController.m; sourceTree = "<group>"; };
 		850396F61BF46BFE00BF3DD6 /* EquiqAndSumAbilityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquiqAndSumAbilityCell.h; sourceTree = "<group>"; };
@@ -371,6 +370,10 @@
 		855C47261BF0317100E24FAB /* TuWanPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanPicViewController.m; sourceTree = "<group>"; };
 		855C47281BF04C2B00E24FAB /* XiMaCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiMaCategoryCell.h; sourceTree = "<group>"; };
 		855C47291BF04C2B00E24FAB /* XiMaCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiMaCategoryCell.m; sourceTree = "<group>"; };
+		85BADAC01BFD7FB200037927 /* HeroViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroViewModel.h; sourceTree = "<group>"; };
+		85BADAC11BFD7FB200037927 /* HeroViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroViewModel.m; sourceTree = "<group>"; };
+		85BADAC31BFD84BD00037927 /* HeroListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroListViewCell.h; sourceTree = "<group>"; };
+		85BADAC41BFD84BD00037927 /* HeroListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroListViewCell.m; sourceTree = "<group>"; };
 		85E99D4B1BEB46DE006B502F /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
 		85E99D4C1BEB46DE006B502F /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
 		85E99D4E1BEB49E2006B502F /* TuWanViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanViewModel.h; sourceTree = "<group>"; };
@@ -696,6 +699,8 @@
 				851B6C531BF335780086A360 /* BestGroupCell.m */,
 				850396F61BF46BFE00BF3DD6 /* EquiqAndSumAbilityCell.h */,
 				850396F71BF46BFE00BF3DD6 /* EquiqAndSumAbilityCell.m */,
+				85BADAC31BFD84BD00037927 /* HeroListViewCell.h */,
+				85BADAC41BFD84BD00037927 /* HeroListViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -705,7 +710,7 @@
 			children = (
 				8542ED451BEB086F006067D7 /* 多玩盒子 */,
 				8542ED461BEB086F006067D7 /* 游戏资讯 */,
-				8542ED471BEB086F006067D7 /* 我的信息 */,
+				8542ED471BEB086F006067D7 /* 搞笑段子 */,
 				8542ED481BEB086F006067D7 /* 视听享受 */,
 				8542ED591BEB0A0C006067D7 /* LeftViewController.h */,
 				8542ED5A1BEB0A0C006067D7 /* LeftViewController.m */,
@@ -718,7 +723,7 @@
 			children = (
 				8542ED491BEB0879006067D7 /* 多玩盒子 */,
 				8542ED4A1BEB0879006067D7 /* 游戏资讯 */,
-				8542ED4B1BEB0879006067D7 /* 我的信息 */,
+				8542ED4B1BEB0879006067D7 /* 搞笑段子 */,
 				8542ED4C1BEB0879006067D7 /* 视听享受 */,
 				3886C0B91BD74AE90014E661 /* BaseViewModel.h */,
 				3886C0BA1BD74AE90014E661 /* BaseViewModel.m */,
@@ -737,8 +742,6 @@
 				850396E81BF42D7C00BF3DD6 /* EquiqCategoryController.m */,
 				850396EA1BF4305A00BF3DD6 /* EquiqListViewController.h */,
 				850396EB1BF4305A00BF3DD6 /* EquiqListViewController.m */,
-				850396F01BF4473700BF3DD6 /* EquiqDetailController.h */,
-				850396F11BF4473700BF3DD6 /* EquiqDetailController.m */,
 				850396F31BF46B5C00BF3DD6 /* SumAbilityViewController.h */,
 				850396F41BF46B5C00BF3DD6 /* SumAbilityViewController.m */,
 				850396FC1BF472B600BF3DD6 /* SumAbilityDetailController.h */,
@@ -854,12 +857,13 @@
 			path = "兔玩游戏";
 			sourceTree = "<group>";
 		};
-		8542ED471BEB086F006067D7 /* 我的信息 */ = {
+		8542ED471BEB086F006067D7 /* 搞笑段子 */ = {
 			isa = PBXGroup;
 			children = (
 				8542ED531BEB09A8006067D7 /* MyInfoViewController.h */,
 				8542ED541BEB09A8006067D7 /* MyInfoViewController.m */,
 			);
+			name = "搞笑段子";
 			path = "我的信息";
 			sourceTree = "<group>";
 		};
@@ -892,6 +896,8 @@
 				850396EE1BF4310600BF3DD6 /* EquiqListViewModel.m */,
 				850396F91BF46CF900BF3DD6 /* SumAbilityViewModel.h */,
 				850396FA1BF46CF900BF3DD6 /* SumAbilityViewModel.m */,
+				85BADAC01BFD7FB200037927 /* HeroViewModel.h */,
+				85BADAC11BFD7FB200037927 /* HeroViewModel.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -908,10 +914,11 @@
 			path = "兔玩游戏";
 			sourceTree = "<group>";
 		};
-		8542ED4B1BEB0879006067D7 /* 我的信息 */ = {
+		8542ED4B1BEB0879006067D7 /* 搞笑段子 */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = "搞笑段子";
 			path = "我的信息";
 			sourceTree = "<group>";
 		};
@@ -1112,7 +1119,6 @@
 				8532AB6F1BF602DE004DC31E /* VideoViewController.m in Sources */,
 				851B6C4E1BF31BA60086A360 /* BestGroupViewModel.m in Sources */,
 				850396F81BF46BFE00BF3DD6 /* EquiqAndSumAbilityCell.m in Sources */,
-				850396F21BF4473700BF3DD6 /* EquiqDetailController.m in Sources */,
 				8542ED381BEB0846006067D7 /* WeekDataModel.m in Sources */,
 				853D3AAA1BEC394B0015F5C3 /* TuWanListViewController.m in Sources */,
 				8532AB631BF5FFDC004DC31E /* MultimediaViewController.m in Sources */,
@@ -1128,6 +1134,7 @@
 				8542ED2B1BEB0846006067D7 /* EquiqListModel.m in Sources */,
 				850397041BF4B41500BF3DD6 /* ServiceViewController.m in Sources */,
 				8532AB6C1BF602B7004DC31E /* VideoViewModel.m in Sources */,
+				85BADAC21BFD7FB200037927 /* HeroViewModel.m in Sources */,
 				8542ED341BEB0846006067D7 /* HeroSkinsModel.m in Sources */,
 				3885C8FA1BE8E96A009441EA /* PSCollectionViewCell.m in Sources */,
 				8542ED521BEB097B006067D7 /* TuWanViewController.m in Sources */,
@@ -1177,6 +1184,7 @@
 				850E73751BF0753F005B5DF1 /* XiMaCategoryViewModel.m in Sources */,
 				8542ED431BEB0857006067D7 /* TUWanNetManager.m in Sources */,
 				3886C0C11BD74B090014E661 /* BaseModel.m in Sources */,
+				85BADAC51BFD84BD00037927 /* HeroListViewCell.m in Sources */,
 				8542ED371BEB0846006067D7 /* SumAbilityModel.m in Sources */,
 				3886C0981BD748830014E661 /* main.m in Sources */,
 				851B6C541BF335780086A360 /* BestGroupCell.m in Sources */,

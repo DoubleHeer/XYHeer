@@ -28,7 +28,9 @@
         _titleLabel.numberOfLines = 1;
         [self.contentView addSubview:_titleLabel];
         [_titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.top.right.mas_equalTo(0);
+            make.left.mas_equalTo(10);
+            make.right.mas_equalTo(-10);
+            make.top.mas_equalTo(5);
         }];
     }
     return _titleLabel;
@@ -41,7 +43,8 @@
         _descLabel.numberOfLines = 2;
         [self.contentView addSubview:_descLabel];
         [_descLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.right.mas_equalTo(0);
+            make.left.mas_equalTo(10);
+            make.right.mas_equalTo(-10);
             make.top.mas_equalTo(self.titleLabel.mas_bottom).mas_equalTo(2);
         }];
     }
