@@ -12,6 +12,9 @@
 		1F8EB1A11C03415E0020EC29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8EB1A01C03415E0020EC29 /* Images.xcassets */; };
 		1FACF87C97D68F953ECE365C /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */; };
 		1FD069AA1C05D62000BFA567 /* ScrollDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD069A91C05D62000BFA567 /* ScrollDisplayController.m */; };
+		1FD069AD1C05E3F400BFA567 /* ZBDetailViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD069AC1C05E3F400BFA567 /* ZBDetailViewModel.m */; };
+		1FD069B01C05E56A00BFA567 /* ZBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD069AF1C05E56A00BFA567 /* ZBDetailViewController.m */; };
+		1FD069B31C05E65B00BFA567 /* HeroIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD069B21C05E65B00BFA567 /* HeroIconView.m */; };
 		1FEDD6EA1C0490730008C106 /* JokeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDD6E91C0490730008C106 /* JokeModel.m */; };
 		1FEDD6ED1C0491340008C106 /* AmuseImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDD6EC1C0491340008C106 /* AmuseImageModel.m */; };
 		1FEDD6F01C0491F20008C106 /* JokeNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDD6EF1C0491F20008C106 /* JokeNetManager.m */; };
@@ -157,6 +160,12 @@
 		1F8EB1A01C03415E0020EC29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1FD069A81C05D62000BFA567 /* ScrollDisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollDisplayController.h; sourceTree = "<group>"; };
 		1FD069A91C05D62000BFA567 /* ScrollDisplayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollDisplayController.m; sourceTree = "<group>"; };
+		1FD069AB1C05E3F400BFA567 /* ZBDetailViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBDetailViewModel.h; sourceTree = "<group>"; };
+		1FD069AC1C05E3F400BFA567 /* ZBDetailViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBDetailViewModel.m; sourceTree = "<group>"; };
+		1FD069AE1C05E56A00BFA567 /* ZBDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBDetailViewController.h; sourceTree = "<group>"; };
+		1FD069AF1C05E56A00BFA567 /* ZBDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBDetailViewController.m; sourceTree = "<group>"; };
+		1FD069B11C05E65B00BFA567 /* HeroIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroIconView.h; sourceTree = "<group>"; };
+		1FD069B21C05E65B00BFA567 /* HeroIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroIconView.m; sourceTree = "<group>"; };
 		1FEDD6E81C0490730008C106 /* JokeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeModel.h; sourceTree = "<group>"; };
 		1FEDD6E91C0490730008C106 /* JokeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeModel.m; sourceTree = "<group>"; };
 		1FEDD6EB1C0491340008C106 /* AmuseImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmuseImageModel.h; sourceTree = "<group>"; };
@@ -757,6 +766,8 @@
 				850396F71BF46BFE00BF3DD6 /* EquiqAndSumAbilityCell.m */,
 				85BADAC31BFD84BD00037927 /* HeroListViewCell.h */,
 				85BADAC41BFD84BD00037927 /* HeroListViewCell.m */,
+				1FD069B11C05E65B00BFA567 /* HeroIconView.h */,
+				1FD069B21C05E65B00BFA567 /* HeroIconView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -790,6 +801,8 @@
 		851B6C481BF3184C0086A360 /* 百科详情 */ = {
 			isa = PBXGroup;
 			children = (
+				1FD069AE1C05E56A00BFA567 /* ZBDetailViewController.h */,
+				1FD069AF1C05E56A00BFA567 /* ZBDetailViewController.m */,
 				851B6C491BF319310086A360 /* BestGroupViewController.h */,
 				851B6C4A1BF319310086A360 /* BestGroupViewController.m */,
 				851B6C4F1BF31C420086A360 /* BestGroupDetailViewController.h */,
@@ -962,6 +975,8 @@
 				850396FA1BF46CF900BF3DD6 /* SumAbilityViewModel.m */,
 				85BADAC01BFD7FB200037927 /* HeroViewModel.h */,
 				85BADAC11BFD7FB200037927 /* HeroViewModel.m */,
+				1FD069AB1C05E3F400BFA567 /* ZBDetailViewModel.h */,
+				1FD069AC1C05E3F400BFA567 /* ZBDetailViewModel.m */,
 			);
 			path = "多玩盒子";
 			sourceTree = "<group>";
@@ -1219,6 +1234,7 @@
 				1FEDD6FC1C049FAB0008C106 /* JokeTableViewController.m in Sources */,
 				855C47241BF02DD600E24FAB /* TuWanVideoModel.m in Sources */,
 				1FEDD6F01C0491F20008C106 /* JokeNetManager.m in Sources */,
+				1FD069AD1C05E3F400BFA567 /* ZBDetailViewModel.m in Sources */,
 				855C47231BF02DD600E24FAB /* TuWanPicModel.m in Sources */,
 				854D24E21BF1E23300615A47 /* PlayView.m in Sources */,
 				853D3AB61BEC98720015F5C3 /* TuWanHtmlViewController.m in Sources */,
@@ -1254,6 +1270,7 @@
 				851B6C471BF2E9910086A360 /* ToolMenuViewModel.m in Sources */,
 				8542ED321BEB0846006067D7 /* HeroGiftModel.m in Sources */,
 				85E99D501BEB49E2006B502F /* TuWanViewModel.m in Sources */,
+				1FD069B01C05E56A00BFA567 /* ZBDetailViewController.m in Sources */,
 				8542ED441BEB0857006067D7 /* XiMaNetManager.m in Sources */,
 				3885C8FB1BE8E96A009441EA /* README.md in Sources */,
 				855C472A1BF04C2B00E24FAB /* XiMaCategoryCell.m in Sources */,
@@ -1271,6 +1288,7 @@
 				8542ED421BEB0857006067D7 /* DuoWanNetManager.m in Sources */,
 				854D24DA1BF1C37200615A47 /* XiMaAlbumViewModel.m in Sources */,
 				8542ED5B1BEB0A0C006067D7 /* LeftViewController.m in Sources */,
+				1FD069B31C05E65B00BFA567 /* HeroIconView.m in Sources */,
 				8542ED2A1BEB0846006067D7 /* EquiqDetailModel.m in Sources */,
 				3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */,
 			);

@@ -25,7 +25,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"装备";
+    self.title = @"装备列表";
     [Factory addBackItemToVC:self];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
     self.tableView.tableFooterView = [UIView new];

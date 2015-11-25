@@ -10,27 +10,42 @@
 #import "XYImageView.h"
 
 @interface SumAbilityDetailCell : UITableViewCell
-@property (nonatomic,strong) UILabel *lb;
+@property (nonatomic,strong) UILabel *descLb;
 
 @end
 @implementation SumAbilityDetailCell
 
--(UILabel *)lb{
-    if (!_lb) {
-        _lb = [UILabel new];
-        _lb.numberOfLines = 0;
-        _lb.font  = [UIFont systemFontOfSize:15];
-        _lb.backgroundColor = [UIColor whiteColor];
-      
-        [self.contentView addSubview:_lb];
-        [_lb mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.bottom.mas_equalTo(0);
-            make.left.mas_equalTo(10);
-            make.right.mas_equalTo(-10);
-            make.height.mas_greaterThanOrEqualTo(40);
+- (UILabel *)descLb{
+    if (!_descLb) {
+        _descLb = [UILabel new];
+        _descLb.font=[UIFont systemFontOfSize:14];
+        //黑线方框背景，正常由美工提供。 如果没有美工 可以考虑使用灰色视图套白色视图，两者边缘差距1像素来解决
+        UIView *grayView = [UIView new];
+        grayView.backgroundColor=[UIColor lightGrayColor];
+        [self.contentView addSubview:grayView];
+        grayView.layer.cornerRadius = 4;
+        [grayView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.edges.mas_equalTo(UIEdgeInsetsMake(3, 10, 3, 10));
         }];
+        
+        UIView *whiteView =[UIView new];
+        whiteView.backgroundColor = [UIColor whiteColor];
+        [grayView addSubview:whiteView];
+        whiteView.layer.cornerRadius = 4;
+        
+        [whiteView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.edges.mas_equalTo(UIEdgeInsetsMake(1, 1, 1, 1));
+            make.height.mas_greaterThanOrEqualTo(28);
+        }];
+        
+        [whiteView addSubview:_descLb];
+        _descLb.numberOfLines = 0;
+        [_descLb mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.edges.mas_equalTo(UIEdgeInsetsMake(10, 10, 10, 10));
+        }];
+        
     }
-    return _lb;
+    return _descLb;
 }
 
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
@@ -96,7 +111,7 @@
         [self.view addSubview:_topView];
         [_topView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.top.right.mas_equalTo(0);
-            make.height.mas_equalTo(90);
+            make.height.mas_equalTo(75);
         }];
         
         //        技能图标
@@ -157,11 +172,11 @@
 
     
     if (indexPath.section == 0) {
-        cell.lb.text = [self.saVM desForRow:_row];
+        cell.descLb.text = [self.saVM desForRow:_row];
     }else if (indexPath.section == 1){
-        cell.lb.text = [self.saVM strongForRow:_row];
+        cell.descLb.text = [self.saVM strongForRow:_row];
     }else{
-        cell.lb.text = [self.saVM desForRow:_row];
+        cell.descLb.text = [self.saVM desForRow:_row];
     }
     return cell;
 }
@@ -181,5 +196,11 @@
     return UITableViewAutomaticDimension;
 }
 
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 20;
+}
 
+-(CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
+    return 0;
+}
 @end

@@ -9,8 +9,7 @@
 #import "EquiqListViewController.h"
 #import "EquiqListViewModel.h"
 #import "EquiqAndSumAbilityCell.h"
-
-
+#import "ZBDetailViewController.h"
 
 @interface EquiqListViewController ()<UICollectionViewDelegateFlowLayout,UICollectionViewDataSource,UICollectionViewDelegate>
 @property (nonatomic,strong) EquiqListViewModel *elVM;
@@ -81,8 +80,10 @@
 }
 
 #pragma mark - UICollectionViewDataDelegate
+#pragma mark - UICollectionViewDataDelegate
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
-    
+    ZBDetailViewController *vc = [[ZBDetailViewController alloc] initWithEquipId:[self.elVM equiqIDForRow:indexPath.row]];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark - UICollectionViewDelegateFlowLayout
