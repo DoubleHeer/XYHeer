@@ -31,13 +31,13 @@
     //取消工具栏的透明状态
     self.tabBar.translucent = NO;
     //    self.tabBar.hidden = YES;
-    //初始化三个子视图，放到tabBar中
+    //初始化两个子视图，放到tabBar中
     RankListViewController *rVC = [RankListViewController new];
     VideoViewController *vVC = [VideoViewController new];
     //SearchViewController *sVC = [SearchViewController new];
     UINavigationController *rNavi = [[UINavigationController alloc]initWithRootViewController:rVC];
     UINavigationController *vNavi = [[UINavigationController alloc]initWithRootViewController:vVC];
-   // UINavigationController *sNavi = [[UINavigationController alloc]initWithRootViewController:sVC];
+ 
     self.viewControllers = @[rNavi,vNavi];
 }
 

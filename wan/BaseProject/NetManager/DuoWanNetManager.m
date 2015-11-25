@@ -34,10 +34,17 @@
 @implementation DuoWanNetManager
 //免费英雄http://lolbox.duowan.com/phone/apiHeroes.php?type=free&v=140&OSType=iOS9.1
 //全部英雄http://lolbox.duowan.com/phone/apiHeroes.php?type=all&v=140&OSType=iOS9.1
-+(id)getHeroListWithType:(NSString *)type CompleteHandle:(void(^)(NSMutableArray *arr,NSError *error))completeHandle{
++(id)getAllHeroListWithType:(NSString *)type CompleteHandle:(void(^)(AllHerosModel *model,NSError *error))completeHandle{
     NSString *path = [NSString stringWithFormat:@"%@?type=%@&v=140&OSType=%@",kHeroPath,type,kOSType];
     return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
-        completeHandle([AllHerosModel objectArrayWithKeyValuesArray:responseObj],error);
+        completeHandle([AllHerosModel objectWithKeyValues:responseObj],error);
+    }];
+}
+
++(id)getFreeHeroListWithType:(NSString *)type CompleteHandle:(void(^)(FreeHerosModel *model,NSError *error))completeHandle{
+    NSString *path = [NSString stringWithFormat:@"%@?type=%@&v=140&OSType=%@",kHeroPath,type,kOSType];
+    return [self GET:path parameters:nil completionHandler:^(id responseObj, NSError *error) {
+        completeHandle([FreeHerosModel objectWithKeyValues:responseObj],error);
     }];
 }
 
@@ -194,4 +201,8 @@
         completeHandle([HeroDubModel objectWithKeyValues:responseObj],error);
     }];
 }
+
+
 @end
+
+

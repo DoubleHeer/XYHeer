@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F8EB1991C0328370020EC29 /* FreeHerosModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8EB1981C0328370020EC29 /* FreeHerosModel.m */; };
+		1F8EB19C1C032ED00020EC29 /* HeroListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8EB19B1C032ED00020EC29 /* HeroListModel.m */; };
+		1F8EB1A11C03415E0020EC29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8EB1A01C03415E0020EC29 /* Images.xcassets */; };
 		1FACF87C97D68F953ECE365C /* libPods-BaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAAD623A23724C816F8DC02 /* libPods-BaseProject.a */; };
+		1FEDD6EA1C0490730008C106 /* JokeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDD6E91C0490730008C106 /* JokeModel.m */; };
+		1FEDD6ED1C0491340008C106 /* AmuseImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDD6EC1C0491340008C106 /* AmuseImageModel.m */; };
+		1FEDD6F01C0491F20008C106 /* JokeNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDD6EF1C0491F20008C106 /* JokeNetManager.m */; };
+		1FEDD6F31C0494850008C106 /* JokeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDD6F21C0494850008C106 /* JokeViewModel.m */; };
+		1FEDD6F61C0497330008C106 /* AmuseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDD6F51C0497330008C106 /* AmuseViewModel.m */; };
+		1FEDD6F91C0499C20008C106 /* JokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDD6F81C0499C20008C106 /* JokeViewController.m */; };
+		1FEDD6FC1C049FAB0008C106 /* JokeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDD6FB1C049FAB0008C106 /* JokeTableViewController.m */; };
+		1FEDD6FF1C049FE30008C106 /* AmuseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDD6FE1C049FE30008C106 /* AmuseTableViewController.m */; };
 		3804CE511BD758F10046C8C8 /* AppDelegate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804CE4A1BD758F10046C8C8 /* AppDelegate+Category.m */; };
 		3804CE521BD758F10046C8C8 /* NSObject+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804CE4C1BD758F10046C8C8 /* NSObject+Common.m */; };
 		3804CE531BD758F10046C8C8 /* NSString+PJR.m in Sources */ = {isa = PBXBuildFile; fileRef = 3804CE4E1BD758F10046C8C8 /* NSString+PJR.m */; };
@@ -59,7 +70,6 @@
 		3886C0981BD748830014E661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0971BD748830014E661 /* main.m */; };
 		3886C09B1BD748830014E661 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C09A1BD748830014E661 /* AppDelegate.m */; };
 		3886C0A11BD748830014E661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3886C09F1BD748830014E661 /* Main.storyboard */; };
-		3886C0A31BD748830014E661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3886C0A21BD748830014E661 /* Assets.xcassets */; };
 		3886C0AE1BD749A00014E661 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3886C0AD1BD749A00014E661 /* LaunchScreen.xib */; };
 		3886C0BB1BD74AE90014E661 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BA1BD74AE90014E661 /* BaseViewModel.m */; };
 		3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3886C0BD1BD74AFE0014E661 /* BaseNetManager.m */; };
@@ -120,7 +130,6 @@
 		8542ED441BEB0857006067D7 /* XiMaNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED411BEB0857006067D7 /* XiMaNetManager.m */; };
 		8542ED4F1BEB0906006067D7 /* DuoWabTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED4E1BEB0906006067D7 /* DuoWabTabBarController.m */; };
 		8542ED521BEB097B006067D7 /* TuWanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED511BEB097B006067D7 /* TuWanViewController.m */; };
-		8542ED551BEB09A8006067D7 /* MyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED541BEB09A8006067D7 /* MyInfoViewController.m */; };
 		8542ED581BEB09D9006067D7 /* RankListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED571BEB09D9006067D7 /* RankListViewController.m */; };
 		8542ED5B1BEB0A0C006067D7 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8542ED5A1BEB0A0C006067D7 /* LeftViewController.m */; };
 		854D24D71BF1975A00615A47 /* MusicDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 854D24D61BF1975A00615A47 /* MusicDetailCell.m */; };
@@ -140,6 +149,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F8EB1971C0328370020EC29 /* FreeHerosModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeHerosModel.h; sourceTree = "<group>"; };
+		1F8EB1981C0328370020EC29 /* FreeHerosModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeHerosModel.m; sourceTree = "<group>"; };
+		1F8EB19A1C032ED00020EC29 /* HeroListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroListModel.h; sourceTree = "<group>"; };
+		1F8EB19B1C032ED00020EC29 /* HeroListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroListModel.m; sourceTree = "<group>"; };
+		1F8EB1A01C03415E0020EC29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1FEDD6E81C0490730008C106 /* JokeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeModel.h; sourceTree = "<group>"; };
+		1FEDD6E91C0490730008C106 /* JokeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeModel.m; sourceTree = "<group>"; };
+		1FEDD6EB1C0491340008C106 /* AmuseImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmuseImageModel.h; sourceTree = "<group>"; };
+		1FEDD6EC1C0491340008C106 /* AmuseImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmuseImageModel.m; sourceTree = "<group>"; };
+		1FEDD6EE1C0491F20008C106 /* JokeNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeNetManager.h; sourceTree = "<group>"; };
+		1FEDD6EF1C0491F20008C106 /* JokeNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeNetManager.m; sourceTree = "<group>"; };
+		1FEDD6F11C0494850008C106 /* JokeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JokeViewModel.h; path = BaseProject/NetManager/JokeViewModel.h; sourceTree = SOURCE_ROOT; };
+		1FEDD6F21C0494850008C106 /* JokeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JokeViewModel.m; path = BaseProject/NetManager/JokeViewModel.m; sourceTree = SOURCE_ROOT; };
+		1FEDD6F41C0497330008C106 /* AmuseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AmuseViewModel.h; path = BaseProject/NetManager/AmuseViewModel.h; sourceTree = SOURCE_ROOT; };
+		1FEDD6F51C0497330008C106 /* AmuseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AmuseViewModel.m; path = BaseProject/NetManager/AmuseViewModel.m; sourceTree = SOURCE_ROOT; };
+		1FEDD6F71C0499C20008C106 /* JokeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeViewController.h; sourceTree = "<group>"; };
+		1FEDD6F81C0499C20008C106 /* JokeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeViewController.m; sourceTree = "<group>"; };
+		1FEDD6FA1C049FAB0008C106 /* JokeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeTableViewController.h; sourceTree = "<group>"; };
+		1FEDD6FB1C049FAB0008C106 /* JokeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeTableViewController.m; sourceTree = "<group>"; };
+		1FEDD6FD1C049FE30008C106 /* AmuseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmuseTableViewController.h; sourceTree = "<group>"; };
+		1FEDD6FE1C049FE30008C106 /* AmuseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmuseTableViewController.m; sourceTree = "<group>"; };
 		3804CE491BD758F10046C8C8 /* AppDelegate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Category.h"; sourceTree = "<group>"; };
 		3804CE4A1BD758F10046C8C8 /* AppDelegate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Category.m"; sourceTree = "<group>"; };
 		3804CE4B1BD758F10046C8C8 /* NSObject+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Common.h"; sourceTree = "<group>"; };
@@ -219,7 +249,6 @@
 		3886C0991BD748830014E661 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3886C09A1BD748830014E661 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3886C0A01BD748830014E661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3886C0A21BD748830014E661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		3886C0A71BD748830014E661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3886C0AD1BD749A00014E661 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../LaunchScreen.xib; sourceTree = "<group>"; };
 		3886C0B81BD74A700014E661 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -345,8 +374,6 @@
 		8542ED4E1BEB0906006067D7 /* DuoWabTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DuoWabTabBarController.m; sourceTree = "<group>"; };
 		8542ED501BEB097B006067D7 /* TuWanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuWanViewController.h; sourceTree = "<group>"; };
 		8542ED511BEB097B006067D7 /* TuWanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuWanViewController.m; sourceTree = "<group>"; };
-		8542ED531BEB09A8006067D7 /* MyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoViewController.h; sourceTree = "<group>"; };
-		8542ED541BEB09A8006067D7 /* MyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoViewController.m; sourceTree = "<group>"; };
 		8542ED561BEB09D9006067D7 /* RankListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankListViewController.h; sourceTree = "<group>"; };
 		8542ED571BEB09D9006067D7 /* RankListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankListViewController.m; sourceTree = "<group>"; };
 		8542ED591BEB0A0C006067D7 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
@@ -409,6 +436,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F8EB19D1C0333550020EC29 /* 搞笑段子 */ = {
+			isa = PBXGroup;
+			children = (
+				1FEDD6E81C0490730008C106 /* JokeModel.h */,
+				1FEDD6E91C0490730008C106 /* JokeModel.m */,
+				1FEDD6EB1C0491340008C106 /* AmuseImageModel.h */,
+				1FEDD6EC1C0491340008C106 /* AmuseImageModel.m */,
+			);
+			name = "搞笑段子";
+			path = "喜马拉雅";
+			sourceTree = "<group>";
+		};
 		3804CE481BD758F10046C8C8 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -595,6 +634,7 @@
 				3886C0B71BD74A4A0014E661 /* ViewModel */,
 				3886C0991BD748830014E661 /* AppDelegate.h */,
 				3886C09A1BD748830014E661 /* AppDelegate.m */,
+				1F8EB1A01C03415E0020EC29 /* Images.xcassets */,
 				3886C0961BD748830014E661 /* Supporting Files */,
 			);
 			path = BaseProject;
@@ -622,9 +662,10 @@
 			children = (
 				3886C0BF1BD74B090014E661 /* BaseModel.h */,
 				3886C0C01BD74B090014E661 /* BaseModel.m */,
+				1F8EB19D1C0333550020EC29 /* 搞笑段子 */,
 				8542ECF91BEB0846006067D7 /* 多玩 */,
 				8542ED1F1BEB0846006067D7 /* 兔玩 */,
-				8542ED221BEB0846006067D7 /* 试听享受 */,
+				8542ED221BEB0846006067D7 /* 视听享受 */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -642,6 +683,8 @@
 				3886C0BD1BD74AFE0014E661 /* BaseNetManager.m */,
 				8532AB671BF60262004DC31E /* VideoNetManager.h */,
 				8532AB681BF60262004DC31E /* VideoNetManager.m */,
+				1FEDD6EE1C0491F20008C106 /* JokeNetManager.h */,
+				1FEDD6EF1C0491F20008C106 /* JokeNetManager.m */,
 			);
 			path = NetManager;
 			sourceTree = "<group>";
@@ -649,7 +692,6 @@
 		3886C0B21BD74A4A0014E661 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				3886C0A21BD748830014E661 /* Assets.xcassets */,
 				3886C0AD1BD749A00014E661 /* LaunchScreen.xib */,
 				3886C09F1BD748830014E661 /* Main.storyboard */,
 				3886C0B81BD74A700014E661 /* PrefixHeader.pch */,
@@ -792,6 +834,10 @@
 				8542ED1C1BEB0846006067D7 /* SumAbilityModel.m */,
 				8542ED1D1BEB0846006067D7 /* WeekDataModel.h */,
 				8542ED1E1BEB0846006067D7 /* WeekDataModel.m */,
+				1F8EB1971C0328370020EC29 /* FreeHerosModel.h */,
+				1F8EB1981C0328370020EC29 /* FreeHerosModel.m */,
+				1F8EB19A1C032ED00020EC29 /* HeroListModel.h */,
+				1F8EB19B1C032ED00020EC29 /* HeroListModel.m */,
 			);
 			path = "多玩";
 			sourceTree = "<group>";
@@ -809,7 +855,7 @@
 			path = "兔玩";
 			sourceTree = "<group>";
 		};
-		8542ED221BEB0846006067D7 /* 试听享受 */ = {
+		8542ED221BEB0846006067D7 /* 视听享受 */ = {
 			isa = PBXGroup;
 			children = (
 				8542ED231BEB0846006067D7 /* MusicCategoryModel.h */,
@@ -819,7 +865,7 @@
 				8532AB641BF60238004DC31E /* VideoModel.h */,
 				8532AB651BF60238004DC31E /* VideoModel.m */,
 			);
-			name = "试听享受";
+			name = "视听享受";
 			path = "喜马拉雅";
 			sourceTree = "<group>";
 		};
@@ -860,8 +906,12 @@
 		8542ED471BEB086F006067D7 /* 搞笑段子 */ = {
 			isa = PBXGroup;
 			children = (
-				8542ED531BEB09A8006067D7 /* MyInfoViewController.h */,
-				8542ED541BEB09A8006067D7 /* MyInfoViewController.m */,
+				1FEDD6F71C0499C20008C106 /* JokeViewController.h */,
+				1FEDD6F81C0499C20008C106 /* JokeViewController.m */,
+				1FEDD6FA1C049FAB0008C106 /* JokeTableViewController.h */,
+				1FEDD6FB1C049FAB0008C106 /* JokeTableViewController.m */,
+				1FEDD6FD1C049FE30008C106 /* AmuseTableViewController.h */,
+				1FEDD6FE1C049FE30008C106 /* AmuseTableViewController.m */,
 			);
 			name = "搞笑段子";
 			path = "我的信息";
@@ -917,6 +967,10 @@
 		8542ED4B1BEB0879006067D7 /* 搞笑段子 */ = {
 			isa = PBXGroup;
 			children = (
+				1FEDD6F11C0494850008C106 /* JokeViewModel.h */,
+				1FEDD6F21C0494850008C106 /* JokeViewModel.m */,
+				1FEDD6F41C0497330008C106 /* AmuseViewModel.h */,
+				1FEDD6F51C0497330008C106 /* AmuseViewModel.m */,
 			);
 			name = "搞笑段子";
 			path = "我的信息";
@@ -1028,7 +1082,6 @@
 				3885C8D81BE8E8FB009441EA /* UMShareEditViewController.xib in Resources */,
 				3885C8D61BE8E8FB009441EA /* UMSCommentInputController.xib in Resources */,
 				3885C8E51BE8E8FB009441EA /* ios-social-sdk-comment-detail.html in Resources */,
-				3886C0A31BD748830014E661 /* Assets.xcassets in Resources */,
 				3885C8EB1BE8E8FB009441EA /* ios-social-sdk-share-detail.html in Resources */,
 				3885C8EC1BE8E8FB009441EA /* ios-social-sdk-share-quick.html in Resources */,
 				3885C8F71BE8E96A009441EA /* .gitignore in Resources */,
@@ -1050,6 +1103,7 @@
 				3885C8DC1BE8E8FB009441EA /* UMSShareListController.xib in Resources */,
 				3885C8DD1BE8E8FB009441EA /* UMSocialSDKResourcesNew.bundle in Resources */,
 				3885C8ED1BE8E8FB009441EA /* ios-social-sdk-socialbar.html in Resources */,
+				1F8EB1A11C03415E0020EC29 /* Images.xcassets in Resources */,
 				3885C8E81BE8E8FB009441EA /* ios-social-sdk-login-detail.html in Resources */,
 				3885C8E71BE8E8FB009441EA /* ios-social-sdk-like.html in Resources */,
 			);
@@ -1110,12 +1164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FEDD6EA1C0490730008C106 /* JokeModel.m in Sources */,
 				853D3AB01BEC44040015F5C3 /* TuWanImageCell.m in Sources */,
 				8532AB721BF6037F004DC31E /* VideoCell.m in Sources */,
 				855C47271BF0317100E24FAB /* TuWanPicViewController.m in Sources */,
 				850396E61BF42BE500BF3DD6 /* EquiqCategoryViewModel.m in Sources */,
 				3886C0BE1BD74AFE0014E661 /* BaseNetManager.m in Sources */,
 				85E99D4D1BEB46DE006B502F /* Factory.m in Sources */,
+				1FEDD6F91C0499C20008C106 /* JokeViewController.m in Sources */,
 				8532AB6F1BF602DE004DC31E /* VideoViewController.m in Sources */,
 				851B6C4E1BF31BA60086A360 /* BestGroupViewModel.m in Sources */,
 				850396F81BF46BFE00BF3DD6 /* EquiqAndSumAbilityCell.m in Sources */,
@@ -1123,7 +1179,6 @@
 				853D3AAA1BEC394B0015F5C3 /* TuWanListViewController.m in Sources */,
 				8532AB631BF5FFDC004DC31E /* MultimediaViewController.m in Sources */,
 				8542ED581BEB09D9006067D7 /* RankListViewController.m in Sources */,
-				8542ED551BEB09A8006067D7 /* MyInfoViewController.m in Sources */,
 				8542ED291BEB0846006067D7 /* EquiqCategoryModel.m in Sources */,
 				851B6C511BF31C420086A360 /* BestGroupDetailViewController.m in Sources */,
 				8542ED311BEB0846006067D7 /* HeroEquipModel.m in Sources */,
@@ -1132,6 +1187,7 @@
 				8542ED271BEB0846006067D7 /* AllHerosModel.m in Sources */,
 				854D24DD1BF1CE6600615A47 /* MusicListViewController.m in Sources */,
 				8542ED2B1BEB0846006067D7 /* EquiqListModel.m in Sources */,
+				1FEDD6FF1C049FE30008C106 /* AmuseTableViewController.m in Sources */,
 				850397041BF4B41500BF3DD6 /* ServiceViewController.m in Sources */,
 				8532AB6C1BF602B7004DC31E /* VideoViewModel.m in Sources */,
 				85BADAC21BFD7FB200037927 /* HeroViewModel.m in Sources */,
@@ -1146,10 +1202,13 @@
 				850396F51BF46B5C00BF3DD6 /* SumAbilityViewController.m in Sources */,
 				8532AB661BF60238004DC31E /* VideoModel.m in Sources */,
 				850396EF1BF4310600BF3DD6 /* EquiqListViewModel.m in Sources */,
+				1FEDD6FC1C049FAB0008C106 /* JokeTableViewController.m in Sources */,
 				855C47241BF02DD600E24FAB /* TuWanVideoModel.m in Sources */,
+				1FEDD6F01C0491F20008C106 /* JokeNetManager.m in Sources */,
 				855C47231BF02DD600E24FAB /* TuWanPicModel.m in Sources */,
 				854D24E21BF1E23300615A47 /* PlayView.m in Sources */,
 				853D3AB61BEC98720015F5C3 /* TuWanHtmlViewController.m in Sources */,
+				1FEDD6F61C0497330008C106 /* AmuseViewModel.m in Sources */,
 				851B6C441BF2DBB20086A360 /* DetailViewController.m in Sources */,
 				8542ED361BEB0846006067D7 /* RunesModel.m in Sources */,
 				855C471E1BF02CA800E24FAB /* TuWanPicViewModel.m in Sources */,
@@ -1159,12 +1218,15 @@
 				3886C09B1BD748830014E661 /* AppDelegate.m in Sources */,
 				8542ED4F1BEB0906006067D7 /* DuoWabTabBarController.m in Sources */,
 				851B6C4B1BF319310086A360 /* BestGroupViewController.m in Sources */,
+				1F8EB1991C0328370020EC29 /* FreeHerosModel.m in Sources */,
 				853D3AB31BEC7F970015F5C3 /* XYImageView.m in Sources */,
 				3885C8981BE8E88D009441EA /* iCarousel.m in Sources */,
 				850396FB1BF46CF900BF3DD6 /* SumAbilityViewModel.m in Sources */,
+				1FEDD6F31C0494850008C106 /* JokeViewModel.m in Sources */,
 				8542ED351BEB0846006067D7 /* HeroVideoModel.m in Sources */,
 				850396E91BF42D7C00BF3DD6 /* EquiqCategoryController.m in Sources */,
 				8542ED3B1BEB0846006067D7 /* MusicModel.m in Sources */,
+				1FEDD6ED1C0491340008C106 /* AmuseImageModel.m in Sources */,
 				8542ED2E1BEB0846006067D7 /* GiftModel.m in Sources */,
 				8542ED2D1BEB0846006067D7 /* GameSubjectListModel.m in Sources */,
 				8542ED281BEB0846006067D7 /* BestRanksModel.m in Sources */,
@@ -1173,6 +1235,7 @@
 				8532AB691BF60262004DC31E /* VideoNetManager.m in Sources */,
 				851B6C411BF2D1290086A360 /* SearchViewController.m in Sources */,
 				8542ED2F1BEB0846006067D7 /* HeroChangedModel.m in Sources */,
+				1F8EB19C1C032ED00020EC29 /* HeroListModel.m in Sources */,
 				851B6C471BF2E9910086A360 /* ToolMenuViewModel.m in Sources */,
 				8542ED321BEB0846006067D7 /* HeroGiftModel.m in Sources */,
 				85E99D501BEB49E2006B502F /* TuWanViewModel.m in Sources */,
@@ -1308,14 +1371,16 @@
 			baseConfigurationReference = 4329DABFE5AD654FE71597C9 /* Pods-BaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 				);
 				GCC_PREFIX_HEADER = BaseProject/Resource/PrefixHeader.pch;
 				INFOPLIST_FILE = BaseProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1324,7 +1389,7 @@
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.jia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1334,14 +1399,16 @@
 			baseConfigurationReference = DD4F0750B5DAAA87BA236B31 /* Pods-BaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 				);
 				GCC_PREFIX_HEADER = BaseProject/Resource/PrefixHeader.pch;
 				INFOPLIST_FILE = BaseProject/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1350,7 +1417,7 @@
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 					"$(PROJECT_DIR)/BaseProject/Vendor/umeng_ios_social_sdk_4.2-2.5_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.BaseProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarena.jia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

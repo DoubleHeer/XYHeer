@@ -11,6 +11,7 @@
 
 
 #import "AllHerosModel.h"
+#import "FreeHerosModel.h"
 #import "HeroSkinsModel.h"
 #import "HeroVideoModel.h"
 #import "HeroEquipModel.h"

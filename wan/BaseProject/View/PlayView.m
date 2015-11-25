@@ -29,8 +29,8 @@
 - (UIButton *)playBtn{
     if (!_playBtn) {
         _playBtn =[UIButton buttonWithType:0];
-        [_playBtn setBackgroundImage:[UIImage imageNamed:@"toolbar_play_n_p"] forState:UIControlStateNormal];
-        [_playBtn setBackgroundImage:[UIImage imageNamed:@"toolbar_pause_n_p"] forState:UIControlStateSelected];
+        [_playBtn setBackgroundImage:[UIImage imageNamed:@"play0"] forState:UIControlStateNormal];
+        [_playBtn setBackgroundImage:[UIImage imageNamed:@"pause0"] forState:UIControlStateSelected];
         [self addSubview:_playBtn];
         [_playBtn mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.mas_equalTo(0);

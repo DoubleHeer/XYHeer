@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XYImageView.h"
 
 @interface HeroListViewCell : UICollectionViewCell
+
+@property (nonatomic,strong) UILabel *titleLb;
+@property (nonatomic,strong) UILabel *cNameLb;
+@property (nonatomic,strong) UILabel *locationLb;
+@property (nonatomic,strong) XYImageView *iconImg;
+
+
 
 @end

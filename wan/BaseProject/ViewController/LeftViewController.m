@@ -11,6 +11,7 @@
 #import "MultimediaViewController.h"
 #import "TuWanViewController.h"
 #import "DuoWabTabBarController.h"
+#import "JokeViewController.h"
 
 @interface LeftViewController()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView;
@@ -20,7 +21,7 @@
 @implementation LeftViewController
 
 -(NSArray *)itemNames{
-    return @[@"游戏资讯",@"视听享受",@"英雄联盟",@"搞笑段子"];
+    return @[@"游戏资讯",@"视听享受",@"英雄联盟",@"笑话趣图"];
 }
 
 -(UITableView *)tableView{
@@ -78,6 +79,9 @@
             [self.sideMenuViewController hideMenuViewController];
         case 2:
             [self.sideMenuViewController setContentViewController:[DuoWabTabBarController standardInstance] animated:YES];
+            [self.sideMenuViewController hideMenuViewController];
+        case 3:
+            [self.sideMenuViewController setContentViewController:[JokeViewController standardInstance] animated:YES];
             [self.sideMenuViewController hideMenuViewController];
         default:
             break;

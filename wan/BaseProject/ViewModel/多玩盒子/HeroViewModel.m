@@ -18,15 +18,26 @@
 }
 
 -(void)getDataFromNetCompleteHandle:(CompletionHandle)completionHandle{
-    self.dataTask = [DuoWanNetManager getHeroListWithType:_type CompleteHandle:^(NSMutableArray *arr, NSError *error) {
-        [self.dataArr removeAllObjects];
-        [self.dataArr addObjectsFromArray:arr];
-        completionHandle(error);
-    }];
+    if ([_type isEqualToString:@"free"]) {
+        self.dataTask = [DuoWanNetManager getFreeHeroListWithType:_type CompleteHandle:^(FreeHerosModel *model, NSError *error) {
+            [self.dataArr removeAllObjects];
+            [self.dataArr addObjectsFromArray:model.free];
+            completionHandle(error);
+        }];
+    }else{
+       self.dataTask = [DuoWanNetManager getAllHeroListWithType:_type CompleteHandle:^(AllHerosModel *model, NSError *error) {
+           [self.dataArr removeAllObjects];
+           [self.dataArr addObjectsFromArray:model.all];
+           completionHandle(error);
+       }];
+    }
 }
 
+-(NSInteger)rowNumber{
+    return self.dataArr.count;
+}
 
--(AllHerosModel *)modelForRow:(NSInteger)row{
+-(HeroListModel *)modelForRow:(NSInteger)row{
     return self.dataArr[row];
 }
 

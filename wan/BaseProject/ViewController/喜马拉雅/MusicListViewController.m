@@ -84,8 +84,8 @@
     [self.view addSubview:[PlayView sharedInstance]];
     [[PlayView sharedInstance] mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.mas_equalTo(0);
-        make.bottom.mas_equalTo(0);
-        make.size.mas_equalTo(CGSizeMake(60, 60));
+        make.top.mas_equalTo(self.tableView.mas_bottom).mas_equalTo(5);
+        make.size.mas_equalTo(CGSizeMake(50, 50));
     }];
 }
 #pragma mark - UITableView
