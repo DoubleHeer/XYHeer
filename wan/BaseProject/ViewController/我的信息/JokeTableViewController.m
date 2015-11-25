@@ -69,6 +69,8 @@
 
 @implementation JokeTableViewController
 
+
+
 -(JokeViewModel *)jVM{
     if (!_jVM) {
         _jVM = [JokeViewModel new];

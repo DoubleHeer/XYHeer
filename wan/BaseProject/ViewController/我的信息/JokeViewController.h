@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface JokeViewController : UIViewController
+#import <WMPageController.h> 
+@interface JokeViewController : WMPageController
 
 +(UINavigationController *)standardInstance;
 @end
